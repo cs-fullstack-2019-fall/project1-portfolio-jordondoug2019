@@ -1,0 +1,71 @@
+html,body{
+    height:100%;
+    width:100%;
+    /*background-color: #E0E0CE;*/
+}
+#container{
+    display: grid;
+    height: 100%;
+    width:90%;
+    grid-gap: 15px;
+    grid-template-columns: 20% 40% 30%;
+    grid-template-rows:  20% 50% 25% ;
+    grid-template-areas:"header header header"
+                         ". section aside"
+                     ". footer footer";
+}
+#header{
+    grid-area: header;
+}
+#section{
+    grid-area: section;
+    display: block;
+    position: relative;
+    bottom: 100px;
+
+}
+#textTitle{
+    grid-area: aside;
+}
+h2{
+    font-size: 48px;
+    font-family: 'Pacifico', cursive;
+    color: #F2BB05;
+    font-weight: bold;
+}
+.animated{
+    bounceIn;}
+p{
+    font-family: 'Pacifico', cursive;
+    color: black;
+    font-weight: bolder;
+}
+#footer{
+    grid-area:footer;
+    display:inline-block;
+    text-align: center;
+}
+#aboutMe{
+    position: relative;
+    right: 40px;
+}
+#projects{
+    position: relative;
+    right:30px;
+}
+#skills{
+    position: relative;
+    right: 30px;
+}
+#education{
+    position: relative;
+    left: 5px;
+}
+#resume{
+    position: relative;
+    left: 40px;
+}
+#youtube{
+    position: relative;
+    left: 70px;
+}
