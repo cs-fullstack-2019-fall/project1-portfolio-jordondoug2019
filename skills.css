@@ -37,3 +37,16 @@ html,body{
     position: relative;
     left: 80px;
 }
+#point{
+    grid-area: section;
+    position: relative;
+    left: 300px;
+    bottom: 200px;
+}
+h2{
+    font-family: 'Pacifico', cursive;
+    color: #F2BB05;
+}
+p{
+   font-family: 'Fredoka One', cursive;
+}

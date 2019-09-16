@@ -40,3 +40,12 @@ grid-area: aside;
     position: relative;
     right: 200px;
 }
+h2{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+p{
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+    color: #F2BB05;
+}

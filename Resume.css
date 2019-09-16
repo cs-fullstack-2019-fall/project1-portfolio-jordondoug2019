@@ -28,6 +28,15 @@ margin-bottom: 40px;}
 #resumeFooter{
     grid-area: footer;
     text-align: center;
+    margin-bottom: 15%;
     position: relative;
     right: 200px;
+}
+iframe{
+    position: relative;
+    right: 50px;
+}
+button{
+    position: relative;
+    right: 50px;
 }

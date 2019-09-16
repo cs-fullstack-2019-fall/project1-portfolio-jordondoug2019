@@ -5,7 +5,7 @@ html,body{
 #projectsContainer{
     display: grid;
     height: 100%;
-    width:85%;
+    width:90%;
     padding-top: 5%;
     padding-left: 10%;
     grid-gap: 20px;
@@ -23,7 +23,7 @@ html,body{
     padding-right: 5%;
 }
 #ProjectsMiddle{
-    grid-area: aside;
+    grid-area: section;
     position: relative;
     right: 100px;
     top:60px
@@ -31,7 +31,7 @@ html,body{
 #projectsPicture{
     grid-area: section;
     position: relative;
-    right: 100px;
+   right: 200px;
     top: 60px;
 }
 #projectsFooter{
@@ -39,5 +39,33 @@ html,body{
     text-align: center;
     display: inline-block;
     position: relative;
+    right: 230px;
+    top: 90px;
+}
+a{
+    display: inline-block;
+}
+p{
+    position: relative;
     right: 200px;
+    display: inline-block;
+}
+#google_pic{
+    grid-area: section;
+    position: relative;
+    left: 600px;
+    bottom: 250px;
+}
+#click_game{
+    position: relative;
+    left: 150px;
+}
+h2{
+    text-align: center;
+    margin-left: 45%;
+    font-family: 'Pacifico', cursive;
+    color: #F2BB05;
+}
+#calculator:hover{
+
 }

@@ -68,5 +68,10 @@ p{
 }
 #youtube{
     position: relative;
-    left: 70px;
+    left: 65px;
+    /*right:10px;*/
+}
+#contactMe{
+    position: relative;
+    left:80px;
 }

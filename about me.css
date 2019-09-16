@@ -22,13 +22,20 @@ html,body{
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
+    color: #F2BB05;
 }
 h2{
     font-family: 'Pacifico', cursive;
+
 }
 h4{
     padding-top:50px;
     grid-area: header;
+}
+p{
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+    color: #F2BB05;
 }
 #aboutMiddle{
     grid-area: section;
@@ -39,8 +46,8 @@ h4{
 #aboutText{
     grid-area: aside;
     position: relative;
-    right: 100px;
-    top: 60px;
+    right: 120px;
+    /*top: 100px;*/
 }
 #aboutFooter{
     grid-area: footer;
@@ -48,5 +55,6 @@ h4{
     text-align: center;
     position: relative;
     right: 200px;
+    margin-top: 5%;
 }
 
