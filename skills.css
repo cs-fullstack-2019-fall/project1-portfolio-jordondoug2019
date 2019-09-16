@@ -1,0 +1,36 @@
+html,body{
+    height: 100%;
+    width: 85%;
+}
+#projectsContainer{
+    display: grid;
+    height: 100%;
+    width:90%;
+    padding-top: 5%;
+    padding-left: 10%;
+    grid-gap: 40px;
+    grid-template-columns: 40% 40% 45%;
+    grid-template-rows:  10% 50% 20% ;
+    grid-template-areas:
+            "header header header"
+            ". section section"
+            ". footer footer";
+}
+#skillsHeader{
+    grid-area: header;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+#skillsMiddle{
+    grid-area: section;
+    text-align: center;
+    position: relative;
+    left: 100px;
+}
+#skillsFooter{
+    grid-area: footer;
+    text-align: center;
+    position: relative;
+    left: 80px;
+}

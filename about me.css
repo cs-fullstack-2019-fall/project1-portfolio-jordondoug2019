@@ -1,0 +1,52 @@
+html,body{
+    height: 100%;
+    width: 85%;
+}
+#aboutContainer{
+    display: grid;
+    height: 100%;
+    width:90%;
+    padding-top: 5%;
+    padding-left: 10%;
+    grid-gap: 15px;
+    grid-template-columns: 40% 40% 45%;
+    grid-template-rows:  10% 50% 20% ;
+    grid-template-areas:
+            "header header header"
+             ". section aside"
+            ". footer footer";
+}
+#aboutHeader {
+    grid-area: header;
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+h2{
+    font-family: 'Pacifico', cursive;
+}
+h4{
+    padding-top:50px;
+    grid-area: header;
+}
+#aboutMiddle{
+    grid-area: section;
+    position: relative;
+    right: 100px;
+    top:60px;
+}
+#aboutText{
+    grid-area: aside;
+    position: relative;
+    right: 100px;
+    top: 60px;
+}
+#aboutFooter{
+    grid-area: footer;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    right: 200px;
+}
+
