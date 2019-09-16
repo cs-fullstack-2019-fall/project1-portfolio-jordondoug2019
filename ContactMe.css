@@ -1,0 +1,58 @@
+html,body{
+    height: 100%;
+    width: 85%;
+}
+#contactContainer{
+    display: grid;
+    height: 100%;
+    width:70%;
+    padding-top: 5%;
+    padding-left: 10%;
+    grid-gap: 20px;
+    grid-template-columns: 40% 40% 45%;
+    grid-template-rows:  10% 50% 20% ;grid-area: header;
+    grid-template-areas:
+            "header header header"
+            ". section aside"
+            ". footer footer";
+}
+#contactHeader{
+    grid-area: header;
+    text-align: center;
+    margin-bottom: 40px;}
+#contactMiddle{
+    grid-area: aside;
+    padding-right: 40%;
+    text-align: center;
+    display: block;
+}
+#contactAside{
+    grid-area: section;
+    display: block;
+    margin-right: 25%;
+    margin-top: 10%;
+}
+#contactForm{
+    border: 2px solid black;
+    height:250px;
+    /*width: 250px;*/
+    display:inline-block;
+}
+#contactFooter{
+    grid-area: footer;
+    text-align: center;
+    position: relative;
+    right: 200px;
+}
+#Name{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#Email{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+#message{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}

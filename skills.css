@@ -19,18 +19,21 @@ html,body{
 #skillsHeader{
     grid-area: header;
     text-align: center;
-    padding-left: 10%;
+    padding-left: 35%;
     padding-right: 5%;
+    padding-bottom: 40px;
 }
 #skillsMiddle{
     grid-area: section;
     text-align: center;
+    padding-left: 10%;
     position: relative;
     left: 100px;
 }
 #skillsFooter{
     grid-area: footer;
     text-align: center;
+    padding-left: 10%;
     position: relative;
     left: 80px;
 }

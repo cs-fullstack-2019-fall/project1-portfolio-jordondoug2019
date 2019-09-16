@@ -5,7 +5,7 @@ html,body{
 #projectsContainer{
     display: grid;
     height: 100%;
-    width:90%;
+    width:85%;
     padding-top: 5%;
     padding-left: 10%;
     grid-gap: 20px;
@@ -23,13 +23,13 @@ html,body{
     padding-right: 5%;
 }
 #ProjectsMiddle{
-    grid-area: section;
+    grid-area: aside;
     position: relative;
     right: 100px;
     top:60px
 }
 #projectsPicture{
-    grid-area: aside;
+    grid-area: section;
     position: relative;
     right: 100px;
     top: 60px;

@@ -1,0 +1,42 @@
+html,body{
+    height: 100%;
+    width: 85%;
+}
+#educationContainer{
+    display: grid;
+    height: 100%;
+    width:70%;
+    padding-top: 5%;
+    padding-left: 10%;
+    grid-gap: 20px;
+    grid-template-columns: 40% 40% 45%;
+    grid-template-rows:  10% 50% 20% ;grid-area: header;
+    grid-template-areas:
+            "header header header"
+            ". section aside"
+            ". footer footer";
+}
+#educationHeader{
+    grid-area: header;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#educationMiddle{
+    grid-area: section;
+    padding-right: 30%;
+    position: relative;
+    right: 100px;
+    top: 60px;
+}
+#educationAside{
+grid-area: aside;
+    position: relative;
+    right: 100px;
+    top:60px
+ }
+#educationFooter{
+  grid-area: footer;
+    text-align: center;
+    position: relative;
+    right: 200px;
+}

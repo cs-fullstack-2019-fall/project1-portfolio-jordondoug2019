@@ -1,0 +1,33 @@
+html,body{
+    height: 100%;
+    width: 85%;
+}
+#resumeContainer{
+    display: grid;
+    height: 100%;
+    width:70%;
+    padding-top: 5%;
+    padding-left: 10%;
+    grid-gap: 20px;
+    grid-template-columns: 40% 40% 45%;
+    grid-template-rows:  10% 50% 20% ;grid-area: header;
+    grid-template-areas:
+            "header header header"
+            ". section section"
+            ". footer footer";
+}
+#resumeHeader{
+    grid-area: header;
+text-align: center;
+margin-bottom: 40px;}
+#resumeMiddle{
+    grid-area: section;
+    padding-right: 30%;
+  text-align: center;
+}
+#resumeFooter{
+    grid-area: footer;
+    text-align: center;
+    position: relative;
+    right: 200px;
+}
