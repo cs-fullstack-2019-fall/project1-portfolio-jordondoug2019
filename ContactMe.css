@@ -33,26 +33,53 @@ html,body{
     margin-top: 10%;
 }
 #contactForm{
-    border: 2px solid black;
-    height:250px;
-    /*width: 250px;*/
+    /*border: 2px solid black;*/
+    border-radius: 30px;
+    border-collapse: collapse;
+    height:310px;
+    width: 450px;
     display:inline-block;
+    position: relative;
+    /*right: 250px;*/
 }
 #contactFooter{
     grid-area: footer;
     text-align: center;
     position: relative;
     right: 200px;
+    margin-top: 20%;
 }
 #Name{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 #Email{
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 #message{
     margin-top: 5px;
     margin-bottom: 30px;
+}
+#mc_embed_signup{
+    position: relative;
+    left: 100px;
+}
+.clear{
+    margin-top: 5%;
+}
+input{
+    border-radius: 5px;
+}
+textarea{
+    border-radius: 5px;
+}
+p{
+    font-family: 'Fredoka One', cursive
+}
+fieldset{
+    text-align: center;
+}
+label{
+    font-family: 'Fredoka One', cursive;
 }

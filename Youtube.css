@@ -30,4 +30,14 @@ html,body{
     text-align: center;
     position: relative;
     right: 200px;
+    margin-top: 45px;
+}
+p{
+    font-family: 'Fredoka One', cursive;
+    position: relative;
+   left: 20px;
+    color: #F2BB05;
+}
+iframe{
+    text-align: center;
 }
