@@ -1,6 +1,7 @@
 html,body{
     height: 100%;
     width: 85%;
+    /*background-color: #E0E0CE*/
 }
 #contactContainer{
     display: grid;
@@ -64,6 +65,10 @@ html,body{
 #mc_embed_signup{
     position: relative;
     left: 100px;
+    /*background-color: #E0E0CE*/
+}
+#mc-embedded-subscribe-form{
+    /*background-color: #E0E0CE*/
 }
 .clear{
     margin-top: 5%;

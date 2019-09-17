@@ -29,17 +29,27 @@ html,body{
 }
 h2{
     font-size: 48px;
-    font-family: 'Pacifico', cursive;
+    /*font-family: 'Playfair Display', serif;*/
+    font-family: 'Playfair Display', serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Boogaloo', cursive;
     color: #F2BB05;
     font-weight: bold;
 }
 h4{
-color: #F2BB05;
+    color: #F2BB05;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Boogaloo', cursive;
 }
 p{
-    font-family: 'Pacifico', cursive;
+    /*font-family: 'Playfair Display', serif;*/
+    font-family: 'Playfair Display', serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Boogaloo', cursive;
     color: black;
     font-weight: bolder;
+    font-size: 35px;
 }
 #footer{
     grid-area:footer;

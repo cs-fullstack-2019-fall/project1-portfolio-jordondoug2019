@@ -1,6 +1,7 @@
 html,body{
     height: 100%;
     width: 85%;
+    /*background-color: #E0E0CE;*/
 }
 #aboutContainer{
     display: grid;
@@ -25,17 +26,27 @@ html,body{
     color: #F2BB05;
 }
 h2{
-    font-family: 'Pacifico', cursive;
-
+    /*font-family: 'Playfair Display', serif;*/
+    font-family: 'Playfair Display', serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Boogaloo', cursive;
+    color: #F2BB05;
+    text-align: center;
 }
 h4{
     padding-top:50px;
     grid-area: header;
 }
 p{
-    font-family: 'Fredoka One', cursive;
-    font-size: 15px;
-    color: #F2BB05;
+    /*font-family: 'Playfair Display', serif;*/
+    /*font-family: 'Playfair Display', serif;*/
+    /*font-family: 'Shadows Into Light', cursive;*/
+    /*font-family: 'Boogaloo', cursive;*/
+    /*font-family: 'Rock Salt', cursive;*/
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
 }
 #aboutMiddle{
     grid-area: section;

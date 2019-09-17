@@ -1,6 +1,7 @@
 html,body{
     height: 100%;
     width: 85%;
+    /*background-color: #E0E0CE*/
 }
 #educationContainer{
     display: grid;
@@ -42,10 +43,13 @@ grid-area: aside;
 }
 h2{
     text-align: center;
-    font-family: 'Pacifico', cursive;
+    /*font-family: 'Pacifico', cursive;*/
+    font-family: 'Playfair Display', serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Boogaloo', cursive;
 }
 p{
-    font-family: 'Fredoka One', cursive;
-    font-size: 15px;
+    /*font-family: 'Fredoka One', cursive;*/
+    font-size: 20px;
     color: #F2BB05;
 }

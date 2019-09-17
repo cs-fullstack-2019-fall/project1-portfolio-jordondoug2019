@@ -1,6 +1,7 @@
 html,body{
     height: 100%;
     width: 85%;
+    /*background-color: #E0E0CE*/
 }
 #projectsContainer{
     display: grid;
@@ -63,7 +64,10 @@ p{
 h2{
     text-align: center;
     margin-left: 45%;
-    font-family: 'Pacifico', cursive;
+    /*font-family: 'Pacifico', cursive;*/
+    font-family: 'Playfair Display', serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Boogaloo', cursive;
     color: #F2BB05;
 }
 #calculator:hover{
