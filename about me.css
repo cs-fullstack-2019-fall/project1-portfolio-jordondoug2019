@@ -2,16 +2,17 @@ html,body{
     height: 100%;
     width: 85%;
     /*background-color: #E0E0CE;*/
+    margin: 0px 0px 0px 0px;
 }
 #aboutContainer{
     display: grid;
     height: 100%;
-    width:90%;
-    padding-top: 5%;
-    padding-left: 10%;
+    width:100%;
+    /*padding-top: 5%;*/
+    /*padding-left: 10%;*/
     grid-gap: 15px;
-    grid-template-columns: 40% 40% 45%;
-    grid-template-rows:  10% 50% 20% ;
+    grid-template-columns: 40% 40% 58% 1fr;
+    grid-template-rows:  25% 45% 25% ;
     grid-template-areas:
             "header header header"
              ". section aside"
@@ -20,10 +21,13 @@ html,body{
 #aboutHeader {
     grid-area: header;
     display: inline-block;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-right: 5%;
     text-align: center;
-    color: #F2BB05;
+    background-color: #E0E0CE;
+    /*border: 2px solid black;*/
+    height: 90px;
+    margin-bottom: 20px;
 }
 h2{
     /*font-family: 'Playfair Display', serif;*/
@@ -33,8 +37,15 @@ h2{
     color: #F2BB05;
     text-align: center;
 }
+h3{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: #F2BB05;
+}
 h4{
-    padding-top:50px;
+    /*padding-top:50px;*/
     grid-area: header;
 }
 p{
@@ -59,6 +70,7 @@ p{
     position: relative;
     right: 120px;
     /*top: 100px;*/
+    /*margin-top: 60px;*/
 }
 #aboutFooter{
     grid-area: footer;
@@ -67,5 +79,21 @@ p{
     position: relative;
     right: 200px;
     margin-top: 5%;
+    color: #F2BB05;
+    /*background-color: #E0E0CE;*/
+    height: 90px;
 }
-
+#footercontainer{
+    /*border: 2px solid black;*/
+    width: 100%;
+}
+#ig{
+    float: right;
+    position: relative;
+    top: 30px;
+}
+#linkedin{
+    float: right;
+    position: relative;
+    top: 30px;
+}

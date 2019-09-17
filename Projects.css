@@ -1,17 +1,18 @@
 html,body{
     height: 100%;
-    width: 85%;
+    width: 90%;
     /*background-color: #E0E0CE*/
+    margin: 0px 0px 0px 0px;
 }
 #projectsContainer{
     display: grid;
     height: 100%;
     width:90%;
-    padding-top: 5%;
-    padding-left: 10%;
+    /*padding-top: 5%;*/
+    /*padding-left: 10%;*/
     grid-gap: 20px;
-    grid-template-columns: 40% 40% 45%;
-    grid-template-rows:  10% 50% 20% ;
+    grid-template-columns: 40% 40% 58% 1fr;
+    grid-template-rows:  25% 45% 25% ;
     grid-template-areas:
             "header header header"
             ". section aside"
@@ -19,15 +20,22 @@ html,body{
 }
 #projectsHeader{
     grid-area: header;
+    display: inline-block;
     text-align: center;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-right: 5%;
+    background-color: #E0E0CE;
+    height: 90px;
+    /*width: 20px;*/
+    margin-bottom: 20px;
+
 }
 #ProjectsMiddle{
     grid-area: section;
     position: relative;
     right: 100px;
-    top:60px
+    top:60px;
+    margin-left: 10%;
 }
 #projectsPicture{
     grid-area: section;
@@ -69,6 +77,8 @@ h2{
     font-family: 'Shadows Into Light', cursive;
     font-family: 'Boogaloo', cursive;
     color: #F2BB05;
+    position: relative;
+    bottom:60px;
 }
 #calculator:hover{
 
