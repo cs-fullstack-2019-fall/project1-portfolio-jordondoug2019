@@ -55,11 +55,14 @@ p{
     grid-area:footer;
     display:inline-block;
     text-align: center;
+    font-family: 'Pacifico', cursive;
+
 }
 #aboutMe{
     position: relative;
     right: 40px;
 }
+
 #projects{
     position: relative;
     right:30px;
