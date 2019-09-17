@@ -1,17 +1,18 @@
 html,body{
     height: 100%;
-    width: 85%;
+    width: 90%;
     /*background-color: #E0E0CE;*/
+    margin: 0px 0px 0px 0px;
 }
 #projectsContainer{
     display: grid;
     height: 100%;
     width:90%;
-    padding-top: 5%;
-    padding-left: 10%;
-    grid-gap: 40px;
-    grid-template-columns: 40% 40% 45%;
-    grid-template-rows:  10% 50% 20% ;
+    /*padding-top: 5%;*/
+    /*padding-left: 10%;*/
+    grid-gap: 20px;
+    grid-template-columns: 40% 40% 58% 1fr;
+    grid-template-rows:  25% 45% 25% ;
     grid-template-areas:
             "header header header"
             ". section section"
@@ -19,10 +20,14 @@ html,body{
 }
 #skillsHeader{
     grid-area: header;
+    display: inline-block;
     text-align: center;
-    padding-left: 35%;
+    padding-left: 10%;
     padding-right: 5%;
-    padding-bottom: 40px;
+    background-color: #E0E0CE;
+    height: 90px;
+    margin-bottom: 20px;
+    width:110%
 }
 #skillsMiddle{
     grid-area: section;
@@ -54,4 +59,21 @@ h2{
 p{
     font-weight: bolder;
    /*font-family: 'Fredoka One', cursive;*/
+}
+#title_corner{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: #F2BB05;
+}
+#ig{
+    float: right;
+    position: relative;
+    top: 30px;
+}
+#linkedin{
+    float: right;
+    position: relative;
+    top: 30px;
 }

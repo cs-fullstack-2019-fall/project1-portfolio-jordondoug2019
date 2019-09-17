@@ -35,7 +35,7 @@ html,body{
     position: relative;
     right: 100px;
     top:60px;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 #projectsPicture{
     grid-area: section;
@@ -69,7 +69,7 @@ p{
     position: relative;
     left: 150px;
 }
-h2{
+h1{
     text-align: center;
     margin-left: 45%;
     /*font-family: 'Pacifico', cursive;*/
@@ -80,6 +80,20 @@ h2{
     position: relative;
     bottom:60px;
 }
-#calculator:hover{
-
+h3{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: #F2BB05;
+}
+#ig{
+    float: right;
+    position: relative;
+    top: 30px;
+}
+#linkedin{
+    float: right;
+    position: relative;
+    top: 30px;
 }

@@ -1,37 +1,48 @@
 html,body{
     height: 100%;
-    width: 85%;
+    width: 90%;
     /*background-color: #E0E0CE;*/
+    margin: 0px 0px 0px 0px;
 }
 #resumeContainer{
     display: grid;
     height: 100%;
-    width:70%;
-    padding-top: 5%;
-    padding-left: 10%;
+    width:80%;
+    /*padding-top: 5%;*/
+    /*padding-left: 10%;*/
     grid-gap: 20px;
-    grid-template-columns: 40% 40% 45%;
-    grid-template-rows:  10% 50% 20% ;grid-area: header;
+    grid-template-columns: 40% 40% 58% 1fr;
+    grid-template-rows:  25% 45% 25% ;
     grid-template-areas:
             "header header header"
             ". section section"
             ". footer footer";
 }
 #resumeHeader{
-    grid-area: header;
-text-align: center;
-margin-bottom: 40px;}
+        grid-area: header;
+    display: inline-block;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 5%;
+    background-color: #E0E0CE;
+    height: 90px;
+    margin-bottom: 20px;
+}
 #resumeMiddle{
     grid-area: section;
+    margin-bottom: 30%;
     padding-right: 30%;
   text-align: center;
+    position: relative;
+    bottom:40px
 }
 #resumeFooter{
     grid-area: footer;
     text-align: center;
     margin-bottom: 15%;
     position: relative;
-    right: 200px;
+    right: 250px;
+    font-family: 'Pacifico', cursive;
 }
 iframe{
     position: relative;
@@ -42,4 +53,21 @@ button{
     right: 50px;
     height: 50px;
     border-radius: 30px;
+}
+h3{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: #F2BB05;
+}
+#ig{
+    float: right;
+    position: relative;
+    top: 30px;
+}
+#linkedin{
+    float: right;
+    position: relative;
+    top: 30px;
 }
