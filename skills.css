@@ -58,7 +58,7 @@ h2{
 }
 p{
     font-weight: bolder;
-   /*font-family: 'Fredoka One', cursive;*/
+   font-family: 'Playfair Display',serif;
 }
 #title_corner{
     display: inline-block;
@@ -76,4 +76,8 @@ p{
     float: right;
     position: relative;
     top: 30px;
+}
+#skills1{
+    display: inline-block;
+    margin-top: 5%;
 }

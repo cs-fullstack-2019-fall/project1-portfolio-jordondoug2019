@@ -5,6 +5,7 @@ let education_menu=document.getElementById("education");
 let resume_menu=document.getElementById("resume");
 let youtube_menu=document.getElementById("youtube");
 let contact_menu=document.getElementById("contactMe");
+let home_menu=document.getElementById("home");
 
 about_me.addEventListener('mouseenter',function ()
 {
@@ -74,4 +75,14 @@ contact_menu.addEventListener('mouseleave',function ()
 {
     contact_menu.height=50;
     contact_menu.width=50;
+});
+home_menu.addEventListener('mouseenter',function ()
+{
+   home_menu.height=100;
+   home_menu.width=100;
+});
+home_menu.addEventListener('mouseleave',function ()
+{
+    home_menu.height=45;
+    home_menu.width=45;
 });

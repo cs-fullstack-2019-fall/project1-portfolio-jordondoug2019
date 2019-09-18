@@ -62,15 +62,17 @@ p{
 #google_pic{
     grid-area: section;
     position: relative;
-    left: 600px;
+    left: 650px;
     bottom: 250px;
 }
 #click_game{
     position: relative;
-    left: 150px;
+    left: 200px;
+    bottom: 10px;
 }
 h1{
     text-align: center;
+    /*font-size: 28px;*/
     margin-left: 45%;
     /*font-family: 'Pacifico', cursive;*/
     font-family: 'Playfair Display', serif;
@@ -79,6 +81,7 @@ h1{
     color: #F2BB05;
     position: relative;
     bottom:60px;
+    left:100px;
 }
 h3{
     display: inline-block;
@@ -90,10 +93,17 @@ h3{
 #ig{
     float: right;
     position: relative;
-    top: 30px;
+    left: 600px;
+    bottom: 10px;
 }
 #linkedin{
     float: right;
     position: relative;
-    top: 30px;
+    /*top: 30px;*/
+    left: 515px;
+    bottom: 10px;
+}
+#worksp{
+    text-align: center;
+    float: right;
 }

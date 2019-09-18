@@ -78,3 +78,29 @@ h3{
     position: relative;
     top: 30px;
 }
+#tsu{
+    grid-area: section;
+    position: relative;
+    bottom: 90px;
+    right:60px;
+}
+#lipscomb{
+    grid-area: aside;
+    /*float: right;*/
+    /*float: top;*/
+    position: relative;
+    left:740px;
+    bottom: 300px;
+    /*top:40px;*/
+}
+#codecrew{
+    grid-area: section;
+    position: relative;
+    bottom: 520px;
+    left: 290px;
+
+}
+#thinking{
+    position: relative;
+    right:100px;
+}
