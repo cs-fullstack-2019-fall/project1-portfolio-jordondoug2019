@@ -1,17 +1,17 @@
 html,body{
     height: 100%;
-    width: 90%;
+    width: width;
     /*background-color: #E0E0CE;*/
     margin: 0px 0px 0px 0px;
 }
 #resumeContainer{
     display: grid;
     height: 100%;
-    width:80%;
+    width:100%;
     /*padding-top: 5%;*/
     /*padding-left: 10%;*/
-    grid-gap: 20px;
-    grid-template-columns: 40% 40% 58% 1fr;
+    grid-gap: 15px;
+    grid-template-columns: 10% 40% 50%;
     grid-template-rows:  25% 45% 25% ;
     grid-template-areas:
             "header header header"
@@ -23,40 +23,46 @@ html,body{
     display: inline-block;
     text-align: center;
     padding-left: 10%;
-    padding-right: 5%;
+    /*padding-right: 5%;*/
     background-color: #E0E0CE;
     height: 90px;
     margin-bottom: 20px;
 }
 #resumeMiddle{
     grid-area: section;
-    margin-bottom: 30%;
-    padding-right: 30%;
+    /*margin-left: 25%;*/
+  /*  margin-bottom: 30%;*/
+  /*  padding-right: 30%;*/
   text-align: center;
-    position: relative;
-    bottom:40px
+  /*  position: relative;*/
+  /*  bottom:40px*/
 }
 #resumeFooter{
     grid-area: footer;
     text-align: center;
-    margin-bottom: 15%;
+    width:auto;
+    margin-top:5%;
+    margin-left: 10%;
+    height: 90px;
+    /*margin-bottom: 15%;*/
     position: relative;
-    right: 250px;
+    right: 200px;
     font-family: 'Pacifico', cursive;
 }
 iframe{
     position: relative;
-    right: 50px;
+    bottom: 50px;
+    float: left;
     border: 5px solid orange;
     border-radius: 20px;
 }
 button{
     position: relative;
-    right: 50px;
+    right: 80px;
     height: 50px;
     border-radius: 30px;
-    float: right;
-    bottom: 200px;
+    float: inside;
+    top: 100px;
     border: 3px solid #F2BB05;
 }
 h3{
@@ -67,12 +73,39 @@ h3{
     color: #F2BB05;
 }
 #ig{
-    float: right;
+    /*float: right;*/
     position: relative;
-    top: 30px;
+    /*top: 30px;*/
+    left: 600px;
+    bottom: 10px;
 }
 #linkedin{
-    float: right;
+    /*float: right;*/
     position: relative;
-    top: 30px;
+    /*top: 30px;*/
+    left: 515px;
+    bottom: 10px;
 }
+#aboutMe{
+    margin-right:5%;
+}
+#projects{
+    margin-right:5%;
+}
+#skills{
+    margin-right:5%;
+}
+#education{
+    margin-right:5%;
+}
+#resume{
+    margin-right:5%;
+}
+#youtube{
+    margin-right: 5%;
+}
+#contactMe{
+    margin-right:5%
+}
+#home{
+    margin-right: 5%;}
