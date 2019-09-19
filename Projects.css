@@ -35,7 +35,8 @@ html,body{
     /*position: relative;*/
     /*right: 100px;*/
     /*top:60px;*/
-    margin-left: 45%;
+    margin-left: 30%;
+    /*margin-right: 20%;*/
 }
 #projectsPicture{
     grid-area: section;
@@ -59,11 +60,13 @@ html,body{
 /*a{*/
 /*    display: inline-block;*/
 /*}*/
-p{
-    position: relative;
-    right: 200px;
-    display: inline-block;
-}
+/*div{*/
+/*    position: relative;*/
+/*    right: 200px;*/
+/*    !*left:200px;*!*/
+/*    display: inline-block;*/
+/*    text-align: center;*/
+/*}*/
 #google_pic{
     grid-area: section;
     position: relative;
@@ -140,3 +143,36 @@ h3{
 }
 #home{
     margin-right: 5%;}
+#click_txt{
+    float: right;
+    position: relative;
+    bottom:300px;
+    left:300px;
+    right:200px;
+    margin-top: 15%;
+}
+#google{
+    float: right;
+    position: relative;
+    right:150px;
+    left:600px;
+    top
+    bottom:400px;
+}
+/*#label_container{*/
+/*    display: inline-block;*/
+/*    float: ;*/
+/*}*/
+p{
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    left:200px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Boogaloo', cursive;
+    font-size: larger;
+}
+#calculator{
+    /*margin-right: 15%;*/
+}
