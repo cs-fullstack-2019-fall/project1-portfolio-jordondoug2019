@@ -56,10 +56,11 @@ p{
     /*font-family: 'Shadows Into Light', cursive;*/
     /*font-family: 'Boogaloo', cursive;*/
     /*font-family: 'Rock Salt', cursive;*/
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     color: black;
     font-weight: bolder;
+
 }
 #aboutMiddle{
     grid-area: section;
@@ -128,4 +129,10 @@ p{
 }
 #home{
     margin-right: 5%;
+}
+#notification{
+    color: orange;
+  font-family: 'Fredoka One', cursive;
+    position: relative;
+    right: 20px;
 }
