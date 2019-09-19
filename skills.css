@@ -33,7 +33,7 @@ html,body{
     grid-area: section;
     text-align: center;
     margin-right: 45%;
-    margin-left: 10%;
+    margin-left: 16%;
     margin-bottom: 20%;
     /*padding-left: 10%;*/
     position: relative;
@@ -42,11 +42,13 @@ html,body{
 #skillsFooter{
     grid-area: footer;
     text-align: center;
-    padding-left: 10%;
+    color: #F2BB05;
+    /*padding-left: 10%;*/
     position: relative;
     right: 200px;
     margin-top: 5%;
     margin-right: 5%;
+    margin-left: 20%;
     height:90px;
 }
 #point{
@@ -79,6 +81,7 @@ h3{
     position: relative;
     left: 600px;
     bottom: 10px;
+    /*margin-right: 5%;*/
 }
 #linkedin{
 
@@ -86,6 +89,7 @@ h3{
     position: relative;
     left: 515px;
     bottom: 10px;
+    margin-right: 5%;
 }
 #skills1{
     display: inline-block;
@@ -115,3 +119,6 @@ h3{
 }
 #home{
     margin-right: 5%;}
+#wave{
+    margin-right: 5%;
+}

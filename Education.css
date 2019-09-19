@@ -1,17 +1,17 @@
 html,body{
     height: 100%;
-    width: 90%;
+    width: width;
     /*background-color: #E0E0CE*/
     margin:0px 0px 0px 0px;
 }
 #educationContainer{
     display: grid;
     height: 100%;
-    width:80%;
+    width:100%;
     /*padding-top: 5%;*/
     /*padding-left: 10%;*/
-    grid-gap: 20px;
-    grid-template-columns: 40% 40% 58% 1fr;
+    grid-gap: 15px;
+    grid-template-columns: 10% 40% 50%;
     grid-template-rows:  25% 45% 25% ;
     grid-template-areas:
             "header header header"
@@ -23,18 +23,20 @@ html,body{
     display: inline-block;
     text-align: center;
     padding-left: 10%;
-    padding-right: 5%;
+    /*padding-right: 5%;*/
     background-color: #E0E0CE;
     height: 90px;
     margin-bottom: 20px;
 }
 #educationMiddle{
     grid-area: section;
-    padding-right: 30%;
-    position: relative;
-    right: 100px;
-    top: 60px;
-    bottom: 70px;
+    margin-left: 25%;
+    margin-bottom: 25%;
+    /*padding-right: 30%;*/
+    /*position: relative;*/
+    /*right: 100px;*/
+    /*top: 60px;*/
+    /*bottom: 70px;*/
 }
 #educationAside{
 grid-area: aside;
@@ -46,7 +48,8 @@ grid-area: aside;
   grid-area: footer;
     text-align: center;
     position: relative;
-    right: 200px;
+    right: 100px;
+    color: #F2BB05;
     font-family: 'Pacifico', cursive;
 }
 h2{
@@ -72,6 +75,7 @@ h3{
     float: right;
     position: relative;
     top: 30px;
+    margin-right: 5%;
 }
 #linkedin{
     float: right;
@@ -80,9 +84,10 @@ h3{
 }
 #tsu{
     grid-area: section;
-    position: relative;
-    bottom: 90px;
-    right:60px;
+    margin-right: 10%;
+    /*position: relative;*/
+    /*bottom: 90px;*/
+    /*right:60px;*/
 }
 #lipscomb{
     grid-area: aside;
@@ -90,17 +95,67 @@ h3{
     /*float: top;*/
     position: relative;
     left:740px;
-    bottom: 300px;
+    bottom: 260px;
     /*top:40px;*/
 }
 #codecrew{
     grid-area: section;
+    /*margin-bottom: 5%;*/
     position: relative;
-    bottom: 520px;
-    left: 290px;
+  bottom: 520px;
+    left: 320px;
 
 }
 #thinking{
+    margin-top: 10%;
+    /*position: relative;*/
+    /*right:100px;*/
+}
+#aboutMe{
+    margin-right:5%;
+}
+#projects{
+    margin-right:5%;
+}
+#skills{
+    margin-right:5%;
+}
+#education{
+    margin-right:5%;
+}
+#resume{
+    margin-right:5%;
+}
+#youtube{
+    margin-right: 5%;
+}
+#contactMe{
+    margin-right:5%
+}
+#home{
+    margin-right: 5%;}
+#headerpic{
+    margin-right: 15%;
+}
+#psych{
     position: relative;
-    right:100px;
+    left:100px;
+    bottom: 60px;
+    font-family: 'Fredoka One', cursive;
+    color: orange;
+}
+#cc{
+    position: relative;
+    bottom: 555px;
+    left:400px;
+    font-family: 'Fredoka One', cursive;
+    color: orange;
+}
+#np{
+   float:right;
+    position: relative;
+    left:485px;
+    bottom: 70px;
+    font-family: 'Fredoka One', cursive;
+    color: orange;
 }
