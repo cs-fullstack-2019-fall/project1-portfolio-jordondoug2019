@@ -107,7 +107,8 @@ h3{
 
 }
 #thinking{
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 3%;
     /*position: relative;*/
     /*right:100px;*/
 }
@@ -158,4 +159,13 @@ h3{
     bottom: 70px;
     font-family: 'Fredoka One', cursive;
     color: orange;
+}
+h1{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Boogaloo', cursive;
+    color: #F2BB05;
+    /*font-size: 20px;*/
 }

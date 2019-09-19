@@ -7,6 +7,18 @@ let youtube_menu=document.getElementById("youtube");
 let contact_menu=document.getElementById("contactMe");
 let home_menu=document.getElementById("home");
 
+// let github_skill=document.getElementById("github");
+// let python_skill=document.getElementById('python');
+// let css_skill=document.getElementById('css');
+// let ubuntu_skill=document.getElementById('ubuntu');
+// let html_skill=document.getElementById('html');
+// let js_skill=document.getElementById('javascript');
+// let node_skill=document.getElementById('node');
+// let react_skill=document.getElementById('react');
+// let sql_skill=document.getElementById('sql');
+// let java_skill=document.getElementById('java');
+
+
 about_me.addEventListener('mouseenter',function ()
 {
     about_me.height=100;
@@ -86,3 +98,10 @@ home_menu.addEventListener('mouseleave',function ()
     home_menu.height=45;
     home_menu.width=45;
 });
+
+// github_skill.addEventListener('click',function ()
+// {
+//     github_skill.hidden;
+//    console.log(github_skill.innerHTML="Github")
+//
+// });

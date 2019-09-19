@@ -60,11 +60,14 @@ iframe{
 button{
     position: relative;
     right: 80px;
+    left: 35px;
+    bottom: 50px;
     height: 50px;
     border-radius: 30px;
     float: inside;
     top: 100px;
     border: 3px solid #F2BB05;
+    margin-bottom: 15%;
 }
 h3{
     display: inline-block;
@@ -113,3 +116,12 @@ h3{
 /*#headerpic{*/
 /*    margin-right: 5%;*/
 /*}*/
+p{
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+}
+h1{
+    color: #F2BB05;
+    font-family: 'Pacifico', cursive;
+}
