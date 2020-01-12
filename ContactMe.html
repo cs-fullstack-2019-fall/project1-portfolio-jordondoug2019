@@ -4,40 +4,40 @@
     <meta charset="UTF-8">
     <title>Contact Me</title>
     <link rel="stylesheet" href="ContactMe.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
-    <body id="contactContainer">
-    <header id="contactHeader">
-      <a  href="index.html"><h3> Jordy's Corner</h3></a>
-      <a href="index.html"><img src="pictures/hi_talkbubble_edit.png" height="75" width="75"/></a>
-        <a href="https://www.instagram.com/seejocode" target="_blank"><img src="pictures/instagram.png" height="40" width="40" id="ig"/></a>
-       <a href="https://www.linkedin.com/in/jordondouglas" target="_blank"><img src="pictures/linkedin.png" height="40" width="40" id="linkedin"/></a>
-    </header>
-    <section id="contactMiddle">
-        <p class="animated rotateIn">Thanks for visiting my little corner!</p>
-        <p class="animated rotateIn">Complete the contact form and let's stay in touch!</p>
-        <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/3sbiWejYVIGuX1thyq" width="200" height="200" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/bbva-creando-oportunidades-3sbiWejYVIGuX1thyq">via GIPHY</a></p>
-<!--        <p> Never trade your wings for expectations!</p>-->
-    </section>
-    <aside id="contactAside">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdcbH0zj2lp_qSGVCbBiYAoThusmoXLbaqOaJJXt0bnF81ISg/viewform?embedded=true" width="740" height="340" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="about%20me.html">About</a>
+        <a href="Projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="ContactMe.html">Contact</a>
+        <a href="home.html">Home</a>
+    </div>
+    <div id="main">
+        <header>
+            <a href="home.html"><h1>Jordy's Corner</h1></a>
+            <a href="https://www.instagram.com/seejocode" target="_blank"><img src="pictures/instagram.png" height="30" width="30" id="ig"/></a>
+            <a href="https://www.linkedin.com/in/jordondouglas" target="_blank"><img src="pictures/linkedin.png" height="30" width="30" id="linkedin"/></a>
+            <a href="https://www.youtube.com/channel/UCSHI6fcOIWeAHKZksJx1EUA" target="_blank"><img src="pictures/Youtube-512.png" height="30" width="30" id="youtube" /></a>
+        </header>
+        <span onclick="openNav()"><img src="pictures/icons8-menu-30.png" height="30" width="30"/></span>
+        <br>
+        <h1 id="contactMe">Contact Me</h1>
+        <div class="typeform-widget" data-url="https://jordondouglas.typeform.com/to/jGEv6J" style="width: 80%;
+        height: 400px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById,
+        ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/";
+        if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0];
+        q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;
+        font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px; border-radius: 15px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=jGEv6J&utm_source=typeform.com-15254737-Free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+        <footer>Designed by Jordy</footer>
+    </div>
 
-
-    </aside>
-    <footer id="contactFooter">
-        <a href="about%20me.html"><img src="pictures/individual-icon-26.jpg" height="" width="40" id="aboutMe"/></a>
-        <a href="Projects.html"><img src="pictures/projects_1_edit.png" height="40" width="40" id="projects"/></a>
-        <a href="skills.html"><img src="pictures/skills3_edit.png" height="40" width="40" id="skills"/></a>
-        <a href="Education.html"><img src="pictures/educationicon_edit.png" height="40" width="40" id="education"/></a>
-        <a href="Resume.html"><img src="pictures/resume2.png" height="40" width="40" id="resume"/></a>
-        <a href="Youtube.html"> <img src="pictures/youtube_edit.png" height="40" width="40" id="youtube"/></a>
-        <a href="ContactMe.html"><img src="pictures/contactme.png" height="40" width="40" id="contactMe"/></a>
-        <a href="index.html"><img src="pictures/home_2.png" height=" " width="45" id="home"/></a>
-        <h4 style="font-family: 'Pacifico', cursive">Designed by Jordy</h4>
-    </footer>
-    </footer>
+    <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script>
     <script src="ContactMe.js"></script>
     </body>
 </html>

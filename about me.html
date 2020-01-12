@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>About Me</title>
     <link rel="stylesheet" href="about me.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Boogaloo|Playfair+Display|Shadows+Into+Light&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
@@ -11,44 +12,50 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 <body>
-<div id="aboutContainer">
-    <header id="aboutHeader">
-       <a href="index.html"><h3> Jordy's Corner</h3></a>
-      <a href="index.html"> <img src="pictures/open_mouthsmile_edit.png" height="70" width="70"/></a>
-        <a href="https://www.instagram.com/seejocode" target="_blank"><img src="pictures/instagram.png" height="40" width="40" id="ig"/></a>
-         <a href="https://www.linkedin.com/in/jordondouglas" target="_blank"><img src="pictures/linkedin.png" height="40" width="40" id="linkedin"/></a>
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="about%20me.html">About</a>
+    <a href="Projects.html">Projects</a>
+    <a href="skills.html">Skills</a>
+    <a href="ContactMe.html">Contact</a>
+    <a href="home.html">Home</a>
+</div>
+
+
+
+
+
+<div id="main">
+    <header>
+        <a href="home.html"><h1>Jordy's Corner</h1></a>
+        <a href="https://www.instagram.com/seejocode" target="_blank"><img src="pictures/instagram.png" height="30" width="30" id="ig"/></a>
+        <a href="https://www.linkedin.com/in/jordondouglas" target="_blank"><img src="pictures/linkedin.png" height="30" width="30" id="linkedin"/></a>
+        <a href="https://www.youtube.com/channel/UCSHI6fcOIWeAHKZksJx1EUA" target="_blank"><img src="pictures/Youtube-512.png" height="30" width="30" id="youtube" /></a>
     </header>
-    <section id="aboutMiddle">
-<a href="index.html"><img src="pictures/jumping_out_edit.png" class="animated zoomIn" height="200" width="200"/></a>
-  <h4 id="notification" class="animated flash delay-1s">If you see me, click me and I'll take you home!</h4>
-    </section>
-    <aside id="aboutText">
-        <h2 class="animated slideInLeft" > The one and Only----Jordy</h2>
-     <p class="animated slideInRight">Hello! Welcome to my little corner of the internet! My name is Jordon Douglas but some call me Jordy or Jojo. I am
-     a former teacher turned front-end developer based in Memphis,TN! Why would I leave working in the school system to
-     develop? Glad you asked. I absolutely love working with children but I was simply not happy. I was unfulfilled and was not being
-     challenged with my skill set I acquired over the years of working with children. So I began searching for alternative
-     career paths while attending graduate school. After doing countless google searches, I landed on front-end web development and thought
-     "This is pretty cool". A year later (thanks to one of the kids I mentor), I designed my first website for Lite Memphis! The rest is history!
-     </p>
-        <p class=" animated slideInRight"> Outside of programming and figuring out for loops, you can find me <a href="https://www.instagram.com/seejopaint">painting</a> while listening to
-            Tank and The Bangas or randomly meditating in nature. I also love a good
-        concert or finding a local eatery to make my new spot!</p>
-    </aside>
-    <footer id="aboutFooter">
-        <div id="footercontainer">
-<!--            <a href="index.html"><img src="pictures/laying_down_edit.png" height=" " width="50"/> </a>-->
-        <a href="about%20me.html"><img src=pictures/individual-icon-26.jpg height="" width="40" id="aboutMe"/></a>
-        <a href="Projects.html"><img src="pictures/projects_1_edit.png" height="40" width="40" id="projects"/></a>
-        <a href="skills.html"><img src="pictures/skills3_edit.png" height="40" width="40" id="skills"/></a>
-        <a href="Education.html"><img src="pictures/educationicon_edit.png" height="40" width="40" id="education"/></a>
-        <a href="Resume.html"><img src="pictures/resume2.png" height="40" width="40" id="resume"/></a>
-        <a href="Youtube.html"> <img src="pictures/youtube_edit.png" height="40" width="40" id="youtube"/></a>
-        <a href="ContactMe.html"><img src="pictures/contactme.png" height="40" width="40" id="contactMe"/></a>
-           <a href="index.html"><img src="pictures/home_2.png" height=" " width="45" id="home"/></a>
-            <h4 style="font-family: 'Pacifico', cursive">Designed by Jordy</h4>
-        </div>
-    </footer>
+    <span onclick="openNav()"><img src="pictures/icons8-menu-30.png" height="30" width="30"/></span>
+    <br>
+    <h1 id="about">About</h1>
+<!--    <h1 id="aboutMe"> About Me</h1>-->
+    <img src="pictures/basic_smile_edit.png" id="aboutmePic" height="300" width="300">
+    <div id="aboutBody">
+
+        <h2 id="bodyTitle"> Who wants to read a paragraph??</h2> <br>
+        <ol>
+            <li> I am from the home of the blues and great food, Memphis,TN!</li> <br>
+            <li>There are 2 college diplomas sitting in my parents living room: <br>
+                B.S. Psychology- Tennessee State University (Go Big Blue!) <br>
+                Master of Non-Profit Management- Lipscomb University (Go Bison!)</li> <br>
+            <li>I love working with kids! So much so,that I was an In- School Suspension teacher from 2018-2019.</li> <br>
+            <li>CodeCrew's CodeSchool Bootcamp was my introduction to the lovely world of technology and software development</li> <br>
+            <li>Banksy, Kehinde Wiley, and Dustin Yellin are my favorite artist!</li> <br>
+        </ol>
+        <h3>Want to Learn more about my career journey? Just click   <a href="pictures/Jordon%20M.%20Douglas%20Resumè%202019.pdf"  download="Jordon Douglas Resume"> here</a></h3>
+    </div>
+
+</div>
+<footer>Designed by Jordy</footer>
+
 </div>
 <script src="about%20me.js"></script>
 </body>

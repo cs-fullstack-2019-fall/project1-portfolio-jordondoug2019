@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Skills</title>
-
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Boogaloo|Playfair+Display|Shadows+Into+Light&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
@@ -13,46 +13,67 @@
 
 </head>
 <body>
-<div id="skillsContainer">
-    <header id="skillsHeader">
-       <a href="index.html"><h3 id="title_corner"> Jordy's Corner</h3></a>
-      <a href="index.html"><img src="pictures/hi_wave_edit.gif" height="75" width="75" id="wave"/></a>
-      <a href="https://www.instagram.com/seejocode" target="_blank"> <img src="pictures/instagram.png" height="40" width="40" id="ig"/></a>
-        <a href="https://www.linkedin.com/in/jordondouglas" target="_blank">  <img src="pictures/linkedin.png" height="40" width="40" id="linkedin"/></a>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="about%20me.html">About</a>
+    <a href="Projects.html">Projects</a>
+    <a href="skills.html">Skills</a>
+    <a href="ContactMe.html">Contact</a>
+    <a href="home.html">Home</a>
+</div>
+<div id="main">
+    <header>
+        <a href="home.html"><h1>Jordy's Corner</h1></a>
+        <a href="https://www.instagram.com/seejocode" target="_blank"><img src="pictures/instagram.png" height="30" width="30" id="ig"/></a>
+        <a href="https://www.linkedin.com/in/jordondouglas" target="_blank"><img src="pictures/linkedin.png" height="30" width="30" id="linkedin"/></a>
+        <a href="https://www.youtube.com/channel/UCSHI6fcOIWeAHKZksJx1EUA" target="_blank"><img src="pictures/Youtube-512.png" height="30" width="30" id="youtube" /></a>
     </header>
+    <span onclick="openNav()"><img src="pictures/icons8-menu-30.png" height="30" width="30"/></span>
+    <br>
+    <h1 id="skills">Skills</h1>
+
+<div id="skillsContainer">
+
     <section id="skillsMiddle">
         <div id="skills1">
         <img src="pictures/github.png" class="animated bounceInDown" height="100" width="100" alt="Github" id="github"/>
+
         <img src="pictures/ubuntu.png" class="animated bounceInDown" height="64" width="64" alt="Ubuntu" id="ubuntu"/>
+
         <img src="pictures/python.png" class="animated bounceInDown" height="96" width="96" alt="Python" id="python"/>
         <img src="pictures/html.png" class="animated bounceInDown" height="100" width="100" alt="HTML" id="html"/>
         <img src="pictures/javascript.png"class="animated bounceInDown"  height="64" width="64" alt="Javascript" id="javascript"/>
         <img src="pictures/css.png" class="animated bounceInDown"  height="64" width="64" alt="css" id="css"/>
          </div>
         <div id="skills2">
-        <img src="pictures/nodejs.png" class="animated bounceInDown"  height="100" width="100" alt="nodeJS" id="node"/>
         <img src="pictures/react.png"class="animated bounceInDown"   height="100" width="100" alt="react" id="react"/>
         <img src="pictures/sql.png" class="animated bounceInDown"  height="64" width="64" alt="SQL" id="sql"/>
-        <img src="pictures/java.png" class="animated bounceInDown"  height="64" width="64" alt="java" id="java"/>
         <img src="pictures/jquery.png" class="animated bounceInDown"  height="100" width="100" alt="jquery" id="jquery"/>
         <img src="pictures/django.png" class="animated bounceInDown"  height="100" width="100" alt="django"id="django"/>
+        <img src="pictures/c-logo-icon-18.png" class="animated bounceInDown"  height="100" width="100" alt="csharp"/>
         </div>
+        <br>
+<h2>I am constantly learning and sharpening my skills. I am currently proficient in the following languages:
+<br>
+    <br>
+    <ul>
+    <a href="https://github.com/"><li>Github</li></a> <br>
+ <a href="https://ubuntu.com/"><li>Ubuntu</li></a>   <br>
+  <a href="https://www.python.org/"> <li>Python</li> </a> <br>
+ <a href="https://www.w3schools.com/html/html5_intro.asp"> <li>HTML5</li></a> <br>
+ <a href="https://www.javascript.com/"> <li>JavaScript</li></a> <br>
+  <a href="https://www.w3schools.com/css/">  <li>CSS</li> </a><br>
+ <a href="https://reactjs.org/">   <li>ReactJS</li></a> <br>
+   <a href="https://www.codecademy.com/learn/learn-sql"> <li>SQL</li></a> <br>
+    <a href="https://jquery.com/"> <li>Jquery</li></a> <br>
+   <a href="https://www.djangoproject.com/"> <li>Django</li></a> <br>
+  <a href="https://www.w3schools.com/cs/">  <li>C#</li></a> <br>
+</ul>
+</h2>
 
-        <!--        <img src="pictures/program_lang.jpg" height="334" width="668" class="animated slideInLeft"/>-->
-        <h2 class="animated slideInRight"> Programming Artisan</h2>
-        <p class="animated slideInRight">Much like painting, practice sharpens skill! My favorite language to code is Javascript! </p>
     </section>
-    <footer id="skillsFooter">
-        <a href="about%20me.html"><img src="pictures/individual-icon-26.jpg" height="" width="40" id="aboutMe"/></a>
-        <a href="Projects.html"><img src="pictures/projects_1_edit.png" height="40" width="40" id="projects"/></a>
-        <a href="skills.html"><img src="pictures/skills3_edit.png" height="40" width="40" id="skills"/></a>
-        <a href="Education.html"><img src="pictures/educationicon_edit.png" height="40" width="40" id="education"/></a>
-        <a href="Resume.html"><img src="pictures/resume2.png" height="40" width="40" id="resume"/></a>
-        <a href="Youtube.html"> <img src="pictures/youtube_edit.png" height="40" width="40" id="youtube"/></a>
-        <a href="ContactMe.html"><img src="pictures/contactme.png" height="40" width="40" id="contactMe"/></a>
-        <a href="index.html"><img src="pictures/home_2.png" height=" " width="45" id="home"/></a>
-        <h4 style="font-family: 'Pacifico', cursive">Designed by Jordy</h4>
-    </footer>
+    <footer>Designed by Jordy</footer>
+
 </div>
 <script src="skills.js"></script>
 </body>

@@ -1,172 +1,79 @@
-html,body{
-    height: 100%;
-    width: width;
-    /*background-color: #E0E0CE*/
-    margin: 0px 0px 0px 0px;
+html{
+    background-color: darkcyan;
 }
-#contactContainer{
-    display: grid;
-    height: 100%;
-    width:100%;
-    /*padding-top: 5%;*/
-    /*padding-left: 10%;*/
-    grid-gap: 15px;
-    grid-template-columns: 10% 40% 50%;
-    grid-template-rows:  25% 45% 25% ;
-    grid-template-areas:
-            "header header header"
-            ". section aside"
-            ". footer footer";
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: orange; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
-#contactHeader{
-    grid-area: header;
-    text-align: center;
-    display: inline-block;
-    padding-left: 5%;
-    /*padding-right: 5%;*/
-    background-color: #E0E0CE;
-    margin-bottom: 20px;
-    height: 90px;
-}
-#contactMiddle{
-    grid-area: aside;
-    /*padding-right: 40%;*/
-    text-align: center;
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
     display: block;
+    transition: 0.3s;
 }
-#contactAside{
-    grid-area: section;
-    display: block;
-    margin-left: 45%;
-    /*margin-right: 25%;*/
-    margin-top: 5%;
-    margin-bottom: 50%;
-    /*border: 5px solid #F2BB05;*/
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
 }
-#contactForm{
-    /*border: 2px solid black;*/
-    border-radius: 30px;
-    border-collapse: collapse;
-    height:310px;
-    width: 450px;
-    display:inline-block;
-    position: relative;
-    /*right: 250px;*/
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
-#contactFooter{
-    grid-area: footer;
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+header{
     text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    /*font-family: 'Pacifico', cursive;*/
+
+}
+#ig,#linkedin,#youtube{
+    float: right;
+    margin-bottom: 25%;
+}
+.typeform-widget{
+    /*margin-top: 10%;*/
     position: relative;
-    width:auto;
-    margin-top: 5%;
-    margin-left: 20%;
-    right: 200px;
-    height:90px;
-    color: #F2BB05;
-    /*bottom: 40px;*/
-    /*margin-top: 20%;*/
-}
-#Name{
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-#Email{
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-#message{
-    margin-top: 5px;
-    margin-bottom: 30px;
-}
-#mc_embed_signup{
-    /*margin-top: 5%;*/
-    /*float: right;*/
-    /*margin*/
-    margin-left: 65%;
-    margin-bottom: 30%;
-    /*position: relative;*/
-    /*left: 100px;*/
-    /*background-color: #E0E0CE*/
-}
-#mc-embedded-subscribe-form{
-    /*float: right;*/
-    /*background-color: #E0E0CE*/
-}
-.clear{
-    margin-top: 5%;
-}
-input{
-    border-radius: 5px;
-}
-textarea{
-    border-radius: 5px;
-}
-p{
-    margin-top: 5%;
-    font-family: 'Fredoka One', cursive
-}
-fieldset{
-    text-align: center;
-}
-label{
-    font-family: 'Fredoka One', cursive;
-}
-h3{
-    display: inline-block;
-    float: left;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    color: #F2BB05;
-}
-#ig{
-    /*float: right;*/
-    position: relative;
-    /*top: 30px;*/
-    left: 600px;
-    bottom: 10px
-}
-#linkedin{
-    /*float: right;*/
-    position: relative;
-    /*top: 30px;*/
-    left: 515px;
-    bottom: 10px;
-}
-iframe{
-    position: relative;
-    bottom: 80px;
-    right:300px;
-   margin-bottom: 30%;
-    margin-right: 30%;
-    /*border: 4px solid #F2BB05;*/
-    /*border-radius: 15px;*/
-}
-#aboutMe{
-    margin-right:5%;
-}
-#projects{
-    margin-right:5%;
-}
-#skills{
-    margin-right:5%;
-}
-#education{
-    margin-right:5%;
-}
-#resume{
-    margin-right:5%;
-}
-#youtube{
-    margin-right: 5%;
+    bottom: 250px;
+    margin-left: 15%;
+    border-radius: 15px;
 }
 #contactMe{
-    margin-right:5%
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
 }
-#home{
-    margin-right: 5%;}
-div{
-    margin-left: 30%;
-    margin-bottom: 60%;
-    position: relative;
-    bottom:250px;
+footer{
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Quicksand', sans-serif;
+    color: orange;
+    font-weight: bolder;
 }

@@ -1,34 +1,120 @@
-html,body{
-    height: 100%;
-    width: auto;
-    /*background-color: #E0E0CE;*/
-    margin: 0px 0px 0px 0px;
+html{
+    background-color: darkcyan;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: orange; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+header{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+
+}
+#ig,#linkedin,#youtube{
+    float: right;
+    margin-bottom: 25%;
 }
 #skillsContainer{
-    display: grid;
-    height: 100%;
-    width:100%;
-    /*padding-top: 5%;*/
-    /*padding-left: 10%;*/
-    grid-gap: 5px;
-    grid-template-columns: 10% 40% 50%;
-    grid-template-rows:  25% 45% 25% ;
-    grid-template-areas:
-            "header header header"
-            ". section section"
-            ". footer footer";
+  margin-top: 5%;
+    margin-left: 5%;
 }
-#skillsHeader{
-    grid-area: header;
-    display: inline-block;
+h1{
     text-align: center;
-    padding-left: 10%;
-    /*padding-right: 5%;*/
-    background-color: #E0E0CE;
-    height: 90px;
-    /*margin-bottom: 5%;*/
-    /*width:100%*/
+    font-family: 'Quicksand', sans-serif;
 }
+#skills{
+    float: left;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+}
+ul{
+    list-style-type: none;
+    color: white;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+    /*margin-left: 5%;*/
+    color: white;
+}
+footer{
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Quicksand', sans-serif;
+    color: orange;
+    font-weight: bolder;
+}
+#skills1{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }
+}
+#skills2{
+    margin-left: 5%;
+    margin-right: 5%;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }
+}
+
 #skillsMiddle{
     grid-area: section;
     text-align: center;
@@ -38,87 +124,4 @@ html,body{
     /*padding-left: 10%;*/
     position: relative;
     left: 150px;
-}
-#skillsFooter{
-    grid-area: footer;
-    text-align: center;
-    color: #F2BB05;
-    /*padding-left: 10%;*/
-    position: relative;
-    right: 200px;
-    margin-top: 5%;
-    margin-right: 5%;
-    margin-left: 20%;
-    height:90px;
-}
-#point{
-    grid-area: section;
-    position: relative;
-    left: 300px;
-    bottom: 200px;
-}
-h2{
-    /*font-family: 'Pacifico', cursive;*/
-    font-family: 'Playfair Display', serif;
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Boogaloo', cursive;
-    color: #F2BB05;
-}
-p{
-    font-weight: bolder;
-   font-family: 'Playfair Display',serif;
-}
-h3{
-    display: inline-block;
-    float: left;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    color: #F2BB05;
-}
-#ig{
-
-    /*float: right;*/
-    position: relative;
-    left: 600px;
-    bottom: 10px;
-    /*margin-right: 5%;*/
-}
-#linkedin{
-
-    /*float: right;*/
-    position: relative;
-    left: 515px;
-    bottom: 10px;
-    margin-right: 5%;
-}
-#skills1{
-    display: inline-block;
-    /*margin-top: 5%;*/
-    /*margin-bottom: 10%;*/
-}
-#aboutMe{
-    margin-right:5%;
-}
-#projects{
-    margin-right:5%;
-}
-#skills{
-    margin-right:5%;
-}
-#education{
-    margin-right:5%;
-}
-#resume{
-    margin-right:5%;
-}
-#youtube{
-    margin-right: 5%;
-}
-#contactMe{
-    margin-right:5%
-}
-#home{
-    margin-right: 5%;}
-#wave{
-    margin-right: 5%;
 }

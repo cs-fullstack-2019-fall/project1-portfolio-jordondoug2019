@@ -3,49 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <title>Projects</title>
-
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Boogaloo|Playfair+Display|Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="projectsContainer">
-    <header id="projectsHeader">
-      <a href="index.html"><h3> Jordy's Corner</h3></a>
-        <a href="index.html"><img src="pictures/heyleft_corner_edit.gif" height="75" width="75"/></a>
-        <a href="https://www.instagram.com/seejocode" target="_blank"><img src="pictures/instagram.png" height="40" width="40" id="ig"/></a>
-       <a href="https://www.linkedin.com/in/jordondouglas" target="_blank"><img src="pictures/linkedin.png" height="40" width="40" id="linkedin"/></a>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="about%20me.html">About</a>
+    <a href="Projects.html">Projects</a>
+    <a href="skills.html">Skills</a>
+    <a href="ContactMe.html">Contact</a>
+    <a href="home.html">Home</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+    <header>
+        <a href="home.html"><h1>Jordy's Corner</h1></a>
+        <a href="https://www.instagram.com/seejocode" target="_blank"><img src="pictures/instagram.png" height="30" width="30" id="ig"/></a>
+        <a href="https://www.linkedin.com/in/jordondouglas" target="_blank"><img src="pictures/linkedin.png" height="30" width="30" id="linkedin"/></a>
+        <a href="https://www.youtube.com/channel/UCSHI6fcOIWeAHKZksJx1EUA" target="_blank"><img src="pictures/Youtube-512.png" height="30" width="30" id="youtube" /></a>
     </header>
-    <section id="projectsPicture">
-    </section>
-    <aside id="ProjectsMiddle">
-        <h1 class="animated bounceIn"> My Projects</h1>
-        <p class="animated rotateIn">Below are a few projects I created using HTML,CSS, and Javascript</p>
+    <span onclick="openNav()"><img src="pictures/icons8-menu-30.png" height="30" width="30"/></span>
+    <br>
+    <br>
+    <h1>Projects</h1>
+    <br>
+    <br>
+<div id="projectsContainer">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" >
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="https://github.com/cs-fullstack-2019-fall/project2-django-wikipedia-jordondoug2019">
+                    <img class="d-block w-300 h-200" src="pictures/MetWikiEdit.png" alt="First slide"></a>
+            </div>
+            <div class="carousel-item">
+             <a href="https://github.com/cs-fullstack-2019-fall/reactdjango-project2-jordondoug2019">
+                 <img class="d-block w-300 h-200" src="pictures/monstahouseedit2.png" alt="Second slide"></a>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-300 h-200" height="800" src="pictures/CitiTechEdit.png" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+               <a href="https://github.com/jordondoug2019/passion_project_Redo_2019">
 
-
-<!--        <label>Javascript tip calculator using conditionals and for loops</label>-->
-            <a class="animated bounceInRight" target="_blank" href="https://github.com/jordondoug2019/TipCalculator.git"><img src="pictures/tip_calculator_edit.png"
-                                                                               height="190" width="190" id="calculator"/> </a>
-<!--        <label id="click_txt">Simple clicking game using Javascript,CSS, and HTML</label>-->
-            <a class='animated bounceIn' target="_blank" href="https://github.com/cs-fullstack-2019-fall/frontend-halfday1-b-jordondoug2019.git"><img
-                    src="pictures/clicking_game.png" height="150" width="150" id="click_game"/></a>
-<!--        <label id="google">Google home page clone created using HTML and CSS</label>-->
-            <a class='animated bounceIn' target="_blank"  href="https://github.com/cs-fullstack-2019-fall/html-basics-weekly-5-jordondoug2019.git"><img
-                    src="pictures/google_clone_2.png" height="300" width="300" id="google_pic"/></a>
-    </aside>
-    <footer id="projectsFooter">
-        <div id="footer2">
-        <a href="about%20me.html"><img src="pictures/individual-icon-26.jpg" height="" width="40" id="aboutMe"/></a>
-        <a href="Projects.html"><img src="pictures/projects_1_edit.png" height="40" width="40" id="projects"/></a>
-        <a href="skills.html"><img src="pictures/skills3_edit.png" height="40" width="40" id="skills"/></a>
-        <a href="Education.html"><img src="pictures/educationicon_edit.png" height="40" width="40" id="education"/></a>
-        <a href="Resume.html"><img src="pictures/resume2.png" height="40" width="40" id="resume"/></a>
-        <a href="Youtube.html"> <img src="pictures/youtube_edit.png" height="40" width="40" id="youtube"/></a>
-        <a href="ContactMe.html"><img src="pictures/contactme.png" height="40" width="40" id="contactMe"/></a>
-        <a href="index.html"><img src="pictures/home_2.png" height=" " width="45" id="home"/></a>
+             <img class="d-block w-300 h-200" src="pictures/google_clone.png" alt="Fourth slide"> </a>
+            </div>
         </div>
-        <h4 style="font-family: 'Pacifico', cursive">Designed by Jordy</h4>
-    </footer>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+
+    </div>
+    <footer>Designed by Jordy</footer>
+</div>
+
+
 </div>
 <link rel="stylesheet" href="Projects.css">
 <script src="Projects.js"></script>

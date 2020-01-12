@@ -1,178 +1,87 @@
 html,body{
-    height: 100%;
-    width: auto;
-    /*background-color: #E0E0CE*/
-    margin: 0px 0px 0px 0px;
+    background-color: darkcyan;
 }
-#projectsContainer{
-    display: grid;
-    height: 100%;
-    width:100%;
-    /*padding-top: 5%;*/
-    /*padding-left: 10%;*/
-    grid-gap: 15px;
-    grid-template-columns: 10% 40% 50%;
-    grid-template-rows:  25% 45% 25% ;
-    grid-template-areas:
-            "header header header"
-            ". section aside"
-            ". footer footer";
-}
-#projectsHeader{
-    grid-area: header;
-    display: inline-block;
-    text-align: center;
-    padding-left: 10%;
-    /*padding-right: 5%;*/
-    background-color: #E0E0CE;
-    height: 90px;
-    /*width: auto;*/
-    margin-bottom: 20px;
 
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: orange; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
-#ProjectsMiddle{
-    grid-area: section;
-    /*position: relative;*/
-    /*right: 100px;*/
-    /*top:60px;*/
-    margin-left: 30%;
-    /*margin-right: 20%;*/
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
 }
-#projectsPicture{
-    grid-area: section;
-    position: relative;
-   right: 200px;
-    top: 60px;
+
+.sidenav a:hover {
+    color: #f1f1f1;
 }
-#projectsFooter{
-    grid-area: footer;
-    text-align: center;
-    display: inline-block;
-    position: relative;
-    width:auto;
-    margin-top: 5%;
-    margin-left: 10%;
-    right: 200px;
-    /*top: 90px;*/
-    height: 90px;
-    color: #F2BB05;
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
-/*a{*/
-/*    display: inline-block;*/
-/*}*/
-/*div{*/
-/*    position: relative;*/
-/*    right: 200px;*/
-/*    !*left:200px;*!*/
-/*    display: inline-block;*/
-/*    text-align: center;*/
-/*}*/
-#google_pic{
-    grid-area: section;
-    position: relative;
-    left: 650px;
-    bottom: 250px;
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
 }
-#click_game{
-    position: relative;
-    left: 200px;
-    bottom: 10px;
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
-h1{
-    text-align: center;
-    /*font-size: 28px;*/
-    margin-left: 45%;
-    /*font-family: 'Pacifico', cursive;*/
-    font-family: 'Playfair Display', serif;
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Boogaloo', cursive;
-    color: #F2BB05;
-    position: relative;
-    bottom:60px;
-    left:100px;
-}
-h3{
-    display: inline-block;
-    float: left;
+header{
     text-align: center;
     font-family: 'Pacifico', cursive;
-    color: #F2BB05;
-}
-#ig{
-    /*float: right;*/
-    position: relative;
-    left: 600px;
-    bottom: 10px;
-}
-#linkedin{
-    /*float: right;*/
-    position: relative;
-    /*top: 30px;*/
-    left: 515px;
-    bottom: 10px;
-}
-#worksp{
-    text-align: center;
-    float: right;
-}
-#footer2{
-    width:auto;
-    margin-left:10%;
-}
 
-#aboutMe{
-    margin-right:5%;
 }
-#projects{
-    margin-right:5%;
-}
-#skills{
-    margin-right:5%;
-}
-#education{
-    margin-right:5%;
-}
-#resume{
-    margin-right:5%;
-}
-#youtube{
-    margin-right: 5%;
-}
-#contactMe{
-    margin-right:5%
-}
-#home{
-    margin-right: 5%;}
-#click_txt{
+#ig,#linkedin,#youtube{
     float: right;
-    position: relative;
-    bottom:300px;
-    left:300px;
-    right:200px;
-    margin-top: 15%;
+    margin-bottom: 25%;
 }
-#google{
-    float: right;
-    position: relative;
-    right:150px;
-    left:600px;
-    top
-    bottom:400px;
+h1{
+    font-family: 'Quicksand', sans-serif;
 }
-/*#label_container{*/
-/*    display: inline-block;*/
-/*    float: ;*/
-/*}*/
-p{
+#carouselExampleControls{
+    margin-top: 6.5%;
+    width:25.5%;
+    margin-left: 40%;
+}
+footer{
     text-align: center;
-    position: relative;
-    bottom: 30px;
-    left:200px;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Boogaloo', cursive;
-    font-size: larger;
+    margin-top: 10%;
+    font-family: 'Quicksand', sans-serif;
+    color: orange;
+    font-weight: bolder;
 }
-#calculator{
-    /*margin-right: 15%;*/
+#carouselExampleControls{
+    /*height: 80%;*/
+}
+.carousel-inner{
+    width: 1400px;
+    position: relative;
+    right: 480px;
+
+}
+.carousel-control-prev-icon{
+    color: orangered;
+}
+.carousel-control-prev {
+    color: orangered;
 }
