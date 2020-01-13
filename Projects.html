@@ -28,7 +28,7 @@
 <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
 <div id="main">
     <header>
-        <a href="home.html"><h1>Jordy's Corner</h1></a>
+        <h1 id="projectHeader">Jordy's Corner</h1>
         <a href="https://www.instagram.com/seejocode" target="_blank"><img src="pictures/instagram.png" height="30" width="30" id="ig"/></a>
         <a href="https://www.linkedin.com/in/jordondouglas" target="_blank"><img src="pictures/linkedin.png" height="30" width="30" id="linkedin"/></a>
         <a href="https://www.youtube.com/channel/UCSHI6fcOIWeAHKZksJx1EUA" target="_blank"><img src="pictures/Youtube-512.png" height="30" width="30" id="youtube" /></a>
@@ -36,43 +36,28 @@
     <span onclick="openNav()"><img src="pictures/icons8-menu-30.png" height="30" width="30"/></span>
     <br>
     <br>
-    <h1>Projects</h1>
+    <h1 id="projectTitle">Projects</h1>
     <br>
     <br>
 <div id="projectsContainer">
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" >
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <a href="https://github.com/cs-fullstack-2019-fall/project2-django-wikipedia-jordondoug2019">
-                    <img class="d-block w-300 h-200" src="pictures/MetWikiEdit.png" alt="First slide"></a>
-            </div>
-            <div class="carousel-item">
-             <a href="https://github.com/cs-fullstack-2019-fall/reactdjango-project2-jordondoug2019">
-                 <img class="d-block w-300 h-200" src="pictures/monstahouseedit2.png" alt="Second slide"></a>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-300 h-200" height="800" src="pictures/CitiTechEdit.png" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-               <a href="https://github.com/jordondoug2019/passion_project_Redo_2019">
+    <div id="projectPics">
+        <a href="https://github.com/cs-fullstack-2019-fall/project2-django-wikipedia-jordondoug2019">
+            <img src="pictures/MetWikiEdit.png" width="1000"></a> <br><br>
+        <p>Full stack Django Wikipedia Light web application. Designed with Django Templating and CSS. Backend was created utilizing full CRUD operations. </p><br> <br>
+        <a href="https://github.com/cs-fullstack-2019-fall/reactdjango-project2-jordondoug2019">
+            <img src="pictures/monstahouseedit2.png" width="1000"> </a> <br> <br>
+       <p>Full stack(ReactJS+Django) raid game with authentication, game shop feature, and
+           functionality. Frontend designed with ReactJS, CSS. Implemented backend using Django REST Framework. </p>   <br> <br>
 
-             <img class="d-block w-300 h-200" src="pictures/google_clone.png" alt="Fourth slide"> </a>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+   <a href="https://github.com/jordondoug2019/passion_project_Redo_2019">  <img src="pictures/CitiTechEdit.png" width="1000"></a> <br> <br>
+        <p>Implemented using Full stack Django. Designed using Django Templating and backend created using google map api, CRUD. A one stop shop for all events, conferences, and groups related to the Tech Community in Memphis.</p>
+        <br> <br>
 
-
-    </div>
-    <footer>Designed by Jordy</footer>
+        <a href="https://github.com/cs-fullstack-2019-fall/html-basics-weekly-5-jordondoug2019">  <img src="pictures/google_clone.png" width="1000"> </a> <br> <br>
+        <p>Simple Google Clone using HTML5 and CSS.</p><br> <br>
 </div>
-
+</div>
+    <footer>Designed by Jordy</footer>
 
 </div>
 <link rel="stylesheet" href="Projects.css">

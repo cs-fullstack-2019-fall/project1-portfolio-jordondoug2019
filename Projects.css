@@ -57,6 +57,11 @@ header{
 }
 h1{
     font-family: 'Quicksand', sans-serif;
+    color: #F2BB05;
+}
+#projectTitle{
+    color: #F2BB05;
+
 }
 #carouselExampleControls{
     margin-top: 6.5%;
@@ -84,4 +89,21 @@ footer{
 }
 .carousel-control-prev {
     color: orangered;
+}
+#projectPics{
+    /*position: relative;*/
+    /*bottom: 10px;*/
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+#projectHeader{
+    margin-left: 5%;
+    margin-top: 2%;
+    position: sticky;
+}
+p{
+    color: white;
+    font-size: larger;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
 }

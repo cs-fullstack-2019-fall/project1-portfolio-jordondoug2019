@@ -4,6 +4,7 @@ html{
 #about{
 float: left;
     font-weight: normal;
+    color: #F2BB05
 }
 /* The side navigation menu */
 .sidenav {
@@ -69,6 +70,9 @@ hr{
 h1{
     text-align: center;
     font-family: 'Quicksand', sans-serif;
+    color: #F2BB05;
+    font-weight: normal;
+    font-size: 40px;
     /*font-family: 'Boogaloo', cursive;*/
 }
 #aboutBody{
@@ -76,8 +80,9 @@ h1{
     font-family: 'Quicksand', sans-serif;
     /*font-family: 'Boogaloo', cursive;*/
     font-size: x-large;
-    font-weight: bolder;
+    font-weight: normal;
     color: white;
+    /*color: #F2BB05;*/
 }
 h2{
    margin-left: 10%;
@@ -93,12 +98,15 @@ footer{
 
 }
 #aboutmePic{
-    margin-left: 38%;
+    margin-left: 35%;
 }
 #aboutMe{
     font-family: 'Boogaloo', cursive;
 }
-
+#aboutTitle{
+    margin-left: 5%;
+    position: sticky;
+}
 
 
 

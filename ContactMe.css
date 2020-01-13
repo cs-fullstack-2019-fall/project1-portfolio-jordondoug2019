@@ -60,15 +60,17 @@ header{
     margin-bottom: 25%;
 }
 .typeform-widget{
-    /*margin-top: 10%;*/
+    /*margin-bottom: 20%;*/
     position: relative;
     bottom: 250px;
     margin-left: 15%;
+    margin-right: 15%;
     border-radius: 15px;
 }
 #contactMe{
     font-family: 'Quicksand', sans-serif;
     font-weight: normal;
+    color: #F2BB05;
 }
 footer{
     text-align: center;
@@ -76,4 +78,9 @@ footer{
     font-family: 'Quicksand', sans-serif;
     color: orange;
     font-weight: bolder;
+}
+h1{
+    color: #F2BB05;
+    font-weight: normal;
+    font-size: 40px;
 }
