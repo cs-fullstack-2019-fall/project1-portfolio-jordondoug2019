@@ -107,3 +107,28 @@ p{
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
 }
+@media only screen and (max-width: 768px) {
+    #pic1{
+        width: 500px;
+        position: relative;
+        right: 16px;
+    }
+    #pic2{
+        width: 500px;
+        position: relative;
+        right: 16px;
+    }
+    #pic3{
+        width: 500px;
+        position: relative;
+        right: 16px;
+    }
+    #pic4{
+        width: 500px;
+        position: relative;
+        right: 16px;
+    }
+    p{
+        margin-right: 20%;
+    }
+}

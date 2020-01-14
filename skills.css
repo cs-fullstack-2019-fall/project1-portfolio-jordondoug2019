@@ -179,3 +179,23 @@ p{
     font-size: xx-large;
     color: #F2BB05;
 }
+@media only screen and (max-width: 768px){
+    #skills1{
+        position: relative;
+        right: 170px;
+        top: 40px;
+    }
+    #skills2{
+        position: relative;
+        bottom: 245px;
+        left: 38px;
+    }
+    h2{
+        position: relative;
+        bottom: 230px;
+        right: 53px;
+        font-size: xx-large;
+        text-align: center;
+    }
+
+}

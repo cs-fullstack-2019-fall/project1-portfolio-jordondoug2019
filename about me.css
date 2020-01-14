@@ -107,6 +107,18 @@ footer{
     margin-left: 5%;
     position: sticky;
 }
+@media only screen and (max-width: 768px){
+    #aboutmePic{
+        position: relative;
+        bottom: 70px;
+    }
+    #aboutBody{
+        font-size: large;
+        margin-left: 15%;
+        position: relative;
+        bottom: 40px;
+    }
+}
 
 
 
