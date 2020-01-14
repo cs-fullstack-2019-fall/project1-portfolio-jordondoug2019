@@ -94,3 +94,11 @@ p{
     position: relative;
     left:25px;
 }
+@media only screen and (min-device-width: 600px){
+    #container{
+        font-size: 40px;
+    }
+    img{
+        width:100%;
+    }
+}
