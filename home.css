@@ -94,3 +94,35 @@ p{
     position: relative;
     left:25px;
 }
+@media only screen and (min-width: 375px) {
+    #container{
+        grid-template-columns: 20% 40% 30%;
+        width: 100%;
+        grid-gap:15px;
+        grid-template-areas:
+                "header header header"
+                ". section aside"
+                ". footer footer";
+    }
+    #basic_smile{
+        margin-top: 10%;
+    }
+    #aboutMe{
+        position: relative;
+        right: 0px;
+        margin-left: 5%;
+    }
+    #textTitle{
+        margin-left: 5%;
+    }
+    p{
+        margin-right: 5%;
+    }
+    #contactMe{
+        position: relative;
+        left:0px;
+    }
+    #skills{
+        width: 66px;
+    }
+}
