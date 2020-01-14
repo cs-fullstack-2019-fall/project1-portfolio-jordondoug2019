@@ -135,3 +135,35 @@ p{
         left: 4px;
     }
 }
+@media only screen and (max-width: 320px){
+    #basic_smile{
+        position: relative;
+        bottom: 175px;
+        right:105px;
+
+    }
+    h2{
+        position: relative;
+        top: 90px;
+        right: 100px;
+    }
+    p{
+        font-size: smaller;
+        display: inline-block;
+        position: relative;
+        right: 86px;
+        margin-top: 40%;
+    }
+    #projects{
+        margin-left: 60%;
+    }
+    #aboutMe{
+
+        position: relative;
+        top: 90px;
+        right:50px;
+    }
+    #footer{
+        margin-bottom: 10%;
+    }
+}
