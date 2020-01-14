@@ -211,3 +211,19 @@ p{
     }
 
 }
+@media only screen and (max-width: 320px){
+    #skills1{
+        margin-right: 0;
+    }
+    #skills2{
+    display: none;
+    }
+    #skillsMiddle{
+        margin-right: 0;
+    }
+    h2{
+        position: relative;
+        top:40px;
+        right: 175px;
+    }
+}
