@@ -132,3 +132,17 @@ p{
         margin-right: 20%;
     }
 }
+@media only screen and (max-width: 480px){
+    #pic1{
+        width:340px;
+    }
+    #pic2{
+        width: 340px;
+    }
+    #pic3{
+        width: 340px;
+    }
+    #pic4{
+        width: 340px;
+    }
+}

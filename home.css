@@ -111,4 +111,27 @@ p{
         margin-top:30%;
     }
 }
-
+@media only screen and (max-width: 480px){
+    #basic_smile{
+        position: relative;
+        right:150px;
+        bottom: 50px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    p{
+        display: contents;
+    }
+    #footer{
+        display: inline-block;
+    }
+    #skills{
+        position: relative;
+        right: 10px;
+    }
+    #contactMe{
+        position: relative;
+        left: 4px;
+    }
+}

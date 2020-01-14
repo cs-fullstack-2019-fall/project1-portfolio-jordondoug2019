@@ -119,6 +119,11 @@ footer{
         bottom: 40px;
     }
 }
-
+@media only screen and (max-width: 480px){
+    #aboutmePic{
+        position: relative;
+        right:65px;
+    }
+}
 
 

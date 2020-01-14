@@ -199,3 +199,15 @@ p{
     }
 
 }
+@media only screen and (max-width: 480px) {
+#skills2{
+    position: relative;
+    bottom:415px;
+}
+    h2{
+        position: relative;
+        bottom:375px;
+        right:90px;
+    }
+
+}
