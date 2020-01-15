@@ -107,6 +107,20 @@ p{
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
 }
+@media only screen and (max-width: 1024px){
+    #pic1{
+        width:680px;
+    }
+    #pic2{
+        width:680px;
+    }
+    #pic3{
+        width:680px;
+    }
+    #pic4{
+        width:680px;
+    }
+}
 @media only screen and (max-width: 768px) {
     #pic1{
         width: 500px;
@@ -148,7 +162,7 @@ p{
 }
 @media only screen and (max-width: 375px){
     #pic1{
-        width: 290px;
+        width: 200px;
         position: relative;
         right: 58px;
     }
@@ -190,17 +204,17 @@ p{
         right: 25px;
     }
 }
-@media only screen and (max-width: 1024px){
-    #pic1{
-        width:680px;
-    }
-    #pic2{
-        width:680px;
-    }
-    #pic3{
-        width:680px;
-    }
-    #pic4{
-        width:680px;
-    }
-}
+/*@media only screen and (max-width: 1024px){*/
+/*    #pic1{*/
+/*        width:680px;*/
+/*    }*/
+/*    #pic2{*/
+/*        width:680px;*/
+/*    }*/
+/*    #pic3{*/
+/*        width:680px;*/
+/*    }*/
+/*    #pic4{*/
+/*        width:680px;*/
+/*    }*/
+/*}*/
