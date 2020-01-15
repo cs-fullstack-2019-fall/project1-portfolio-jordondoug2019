@@ -125,5 +125,13 @@ footer{
         right:65px;
     }
 }
+@media only screen and (max-width: 1024px){
+    #aboutBody{
+        margin-left: 10%;
+    }
+    #aboutmePic{
+        margin-left: 25%;
+    }
+}
 
 

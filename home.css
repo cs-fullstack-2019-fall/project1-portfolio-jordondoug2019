@@ -100,15 +100,24 @@ p{
 @media only screen and (max-width: 768px) {
     #basic_smile{
         position: relative;
-        right: 100px;
+        right: 160px;
+    }
+    h2{
+        position: relative;
+        right:70px;
     }
     p{
         position: relative;
-        right: 150px;
+        right: 220px;
         top: 50px;
     }
     #footer{
         margin-top:30%;
+        margin-right: 22%;
+    }
+    #contactMe{
+        position: relative;
+        left:0px;
     }
 }
 @media only screen and (max-width: 480px){
@@ -135,24 +144,24 @@ p{
         left: 4px;
     }
 }
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 375px){
     #basic_smile{
         position: relative;
         bottom: 175px;
-        right:105px;
+        right:90px;
 
     }
     h2{
         position: relative;
-        top: 90px;
+        top: 110px;
         right: 100px;
     }
     p{
-        font-size: smaller;
+        font-size: large;
         display: inline-block;
         position: relative;
         right: 86px;
-        margin-top: 40%;
+        margin-top: 55%;
     }
     #projects{
         margin-left: 60%;
@@ -166,5 +175,34 @@ p{
     #footer{
         margin-bottom: 10%;
         margin-top:2%;
+    }
+}
+@media only screen and (max-width: 414px){
+    #basic_smile{
+        position: relative;
+        bottom: 175px;
+        right:90px;
+
+    }h2{
+         position: relative;
+         top: 110px;
+         right: 100px;
+     }
+    p{
+
+        display: inline-block;
+        position: relative;
+        right: 86px;
+        margin-top: 55%;
+        font-size: large;
+    }
+
+}
+@media only screen and (max-width: 1024px){
+    #container{
+        margin-top: 25%;
+    }
+    #footer{
+        margin-top: 10%;
     }
 }
