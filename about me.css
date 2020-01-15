@@ -107,6 +107,14 @@ footer{
     margin-left: 5%;
     position: sticky;
 }
+@media only screen and (max-width: 1024px){
+    #aboutBody{
+        margin-left: 10%;
+    }
+    #aboutmePic{
+        margin-left: 25%;
+    }
+}
 @media only screen and (max-width: 768px){
     #aboutmePic{
         position: relative;
@@ -119,6 +127,10 @@ footer{
         position: relative;
         bottom: 40px;
     }
+    #js_badge{
+        position: relative;
+        right: 55px;
+    }
 }
 @media only screen and (max-width: 480px){
     #aboutmePic{
@@ -126,16 +138,13 @@ footer{
         right:65px;
     }
 }
-@media only screen and (max-width: 1024px){
-    #aboutBody{
-        margin-left: 10%;
-    }
-    #aboutmePic{
-        margin-left: 25%;
+@media only screen and (max-width: 375px){
+    #js_badge{
+        position: relative;
+        left:34px;
+        height: 200px;
+        width: 200px;
     }
 }
-#js_badge{
-    margin-left: 20%;
-    margin-top: 5%;
-}
+
 
