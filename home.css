@@ -114,10 +114,16 @@ p{
     #footer{
         margin-top:30%;
         margin-right: 22%;
+        position: relative;
+        top:135px;
     }
     #contactMe{
         position: relative;
         left:0px;
+    }
+    #container{
+        position: relative;
+        bottom:130px;
     }
 }
 @media only screen and (max-width: 480px){

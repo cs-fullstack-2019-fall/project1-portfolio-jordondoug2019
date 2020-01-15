@@ -111,6 +111,7 @@ footer{
     #aboutmePic{
         position: relative;
         bottom: 70px;
+        right:65px;
     }
     #aboutBody{
         font-size: large;
@@ -133,5 +134,8 @@ footer{
         margin-left: 25%;
     }
 }
-
+#js_badge{
+    margin-left: 20%;
+    margin-top: 5%;
+}
 
