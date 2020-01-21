@@ -1,5 +1,6 @@
 html{
-    background-color: darkcyan;
+    /*background-color: darkcyan;*/
+    background-blend-mode: color-burn;
 }
 #about{
 float: left;
@@ -80,8 +81,10 @@ h1{
     font-family: 'Quicksand', sans-serif;
     /*font-family: 'Boogaloo', cursive;*/
     font-size: x-large;
-    font-weight: normal;
-    color: white;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    bottom:130px;
     /*color: #F2BB05;*/
 }
 h2{
@@ -99,16 +102,27 @@ footer{
 }
 #aboutmePic{
     margin-left: 35%;
+    position: relative;
+    left:60px;
+   bottom: 200px;
 }
 #aboutMe{
     font-family: 'Boogaloo', cursive;
 }
 #aboutTitle{
-    margin-left: 5%;
+    margin-right: 95%;
     position: sticky;
 }
 #js_badge{
-    margin-left:25%;
+    margin-left:15%;
+    margin-top: 10%;
+}
+#bodyTitle{
+    position: relative;
+}
+h3{
+    margin-left: 20%;
+    margin-top: 5%;
 }
 @media only screen and (max-width: 1024px){
     #aboutBody{

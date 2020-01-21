@@ -1,5 +1,5 @@
 html,body{
-    background-color: darkcyan;
+    /*background-color: darkcyan;*/
 }
 
 .sidenav {
@@ -97,15 +97,19 @@ footer{
     margin-left: 20%;
 }
 #projectHeader{
-    margin-left: 5%;
-    margin-top: 2%;
+    margin-right: 95%;
     position: sticky;
 }
 p{
-    color: white;
+    /*color: white;*/
     font-size: larger;
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
+    color: black;
+    margin-right: 25%;
+}
+#listCap{
+    color: #F2BB05;
 }
 @media only screen and (max-width: 1024px){
     #pic1{

@@ -1,5 +1,5 @@
 html{
-    background-color: darkcyan;
+    /*background-color: darkcyan;*/
 }
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -57,9 +57,10 @@ header{
 #ig,#linkedin,#youtube{
     float: right;
     margin-bottom: 25%;
+    font-size: xx-large;
 }
 #skillsContainer{
-  margin-top: 5%;
+  /*margin-top: 10%;*/
     margin-left: 5%;
 }
 h1{
@@ -78,12 +79,14 @@ h1{
 }
 ul{
     list-style-type: none;
-    color: white;
+    color: black;
+    /*color: white;*/
 }
 h2{
     font-family: 'Quicksand', sans-serif;
+    color: black;
     /*margin-left: 5%;*/
-    color: white;
+    /*color: white;*/
 }
 footer{
     text-align: center;
@@ -91,6 +94,7 @@ footer{
     font-family: 'Quicksand', sans-serif;
     color: orange;
     font-weight: bolder;
+    margin-right: 10%;
 }
 #skills1{
     margin-left: 5%;
@@ -100,6 +104,13 @@ footer{
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+}
+#skillsTitle{
+    margin-right: 95%;
+    position: sticky;
+}
+p{
+    color: black;
 }
 @keyframes floating {
     from { transform: translate(0,  0px); }
@@ -133,6 +144,7 @@ footer{
 .tracking-in-expand {
     -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    color: black;
 
 }
 /* ----------------------------------------------

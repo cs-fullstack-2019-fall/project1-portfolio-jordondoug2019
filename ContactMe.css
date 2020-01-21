@@ -1,5 +1,5 @@
 html{
-    background-color: darkcyan;
+    /*background-color: darkcyan;*/
 }
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -74,7 +74,7 @@ header{
 }
 footer{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 20%;
     font-family: 'Quicksand', sans-serif;
     color: orange;
     font-weight: bolder;
@@ -83,6 +83,10 @@ h1{
     color: #F2BB05;
     font-weight: normal;
     font-size: 40px;
+}
+#contactTitle{
+    margin-right: 95%;
+    position: sticky;
 }
 @media only screen and (max-width: 768px){
     .typeform-widget{
