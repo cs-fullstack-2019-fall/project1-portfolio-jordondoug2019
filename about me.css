@@ -170,7 +170,7 @@ h3{
 }
 @media only screen and (max-width: 375px){
     #aboutmePic{
-        margin-left:-10%
+        margin-left:20%
     }
     #js_badge{
         position: relative;
