@@ -99,12 +99,12 @@ p{
 }
 @media only screen and (max-width: 375px){
     #basic_smile{
-        margin-top: 40%;
+        margin-top: -48%;
         /*margin-left: 35%;*/
 
     }
     h2{
-        margin-top: 90%;
+        /*margin-top: 90%;*/
         /*margin-left: 30%;*/
     }
     p{
@@ -187,6 +187,7 @@ p{
         /*bottom: 175px;*/
         /*right:90px;*/
         /*margin-top: 70%;*/
+
 margin-left:55%;
 
     }
