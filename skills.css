@@ -239,3 +239,6 @@ p{
         right: 175px;
     }
 }
+#lang{
+    display: inline-block;
+}

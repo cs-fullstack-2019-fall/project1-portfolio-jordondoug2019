@@ -80,22 +80,58 @@ p{
     position: relative;
     right: 30px;
 }
-#education{
-    position: relative;
-    left: 5px;
-}
-#resume{
-    position: relative;
-    left: 40px;
-}
-#youtube{
-    position: relative;
-    left: 65px;
-    /*right:10px;*/
-}
+
+
 #contactMe{
     position: relative;
     left:25px;
+}
+#div1{
+   float: left;
+    margin-left: 5%;
+    margin-right: 10%;
+    position: relative;
+    bottom:20px;
+}
+#div2{
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    bottom:15px;
+}
+#div3{
+    float: left;
+    margin-left: 15%;
+}
+#div4{
+
+}
+#footerDiv{
+    margin-left:10%;
+}
+#caption{
+    color: darkorange;
+}
+#cap2{
+    color: darkorange;
+}
+#cap3{
+    position: relative;
+    right:30px;
+    color: darkorange;
+}
+#cap4{
+    position: relative;
+    left: 20px;
+    color: darkorange;
+}
+#footerTxt{
+    text-align: center;
+    margin-top: 5%;
+    position: fixed;
+    right:50px;
+
 }
 @media only screen and (max-width: 375px){
     #basic_smile{

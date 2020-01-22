@@ -2,6 +2,33 @@ html,body{
     /*background-color: darkcyan;*/
 }
 
+#projectPics{
+    display: grid;
+    grid-template-rows: 4fr;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 5%;
+}
+#pic2{
+    position: relative;
+    right:60px;
+    bottom:50px;
+}
+p{
+    position: relative;
+    top: 100px;
+}
+#GameP{
+    position: relative;
+    top:150px;
+}
+#pic4{
+    position: relative;
+    right:70px;
+}
+#googleP{
+    position: relative;
+    top:150px;
+}
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
