@@ -89,6 +89,7 @@ footer{
     color: black;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
 }
 /* The side navigation menu */
 .sidenav {
