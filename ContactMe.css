@@ -1,6 +1,7 @@
 html{
     /*background-color: darkcyan;*/
 }
+
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -8,7 +9,7 @@ html{
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: orange; /* Black*/
+    background-color: black; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -62,7 +63,7 @@ header{
 .typeform-widget{
     /*margin-bottom: 20%;*/
     position: relative;
-    bottom: 250px;
+    margin-top: 5%;
     margin-left: 15%;
     margin-right: 15%;
     border-radius: 15px;
@@ -72,17 +73,11 @@ header{
     font-weight: normal;
     color: #F2BB05;
 }
-footer{
-    text-align: center;
-    margin-top: 20%;
-    font-family: 'Quicksand', sans-serif;
-    color: orange;
-    font-weight: bolder;
-}
+
 h1{
-    color: #F2BB05;
-    font-weight: normal;
-    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+  margin-top:5%;
+    text-align: center;
 }
 #contactTitle{
     margin-right: 95%;
@@ -110,3 +105,38 @@ h1{
         margin-top: 40%;
     }
 }
+#dribbble{
+    float:right;
+    position: relative;
+    top:5px;
+}
+#ig{
+    float:right;
+}
+#linkedin{
+    float: right;
+}
+#gh{
+    float:right;
+}
+
+#menu{
+    float: left;
+    position: relative;
+    top: 5px;
+    left:15px;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    background-color:#F2BB05;
+    /*opacity: 0.7;*/
+    color: black;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+

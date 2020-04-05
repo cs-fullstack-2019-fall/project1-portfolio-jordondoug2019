@@ -1,0 +1,206 @@
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+html{
+    width: fit-content;
+}
+body{
+    margin: 10%;
+    color: #F2BB05;
+}
+.flip-card {
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    background-color: #F2BB05;
+    /*opacity: 0.7;*/
+    color: black;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+#dribbble{
+    float:right;
+    position: relative;
+    top:5px;
+}
+#ig{
+    float:right;
+}
+#linkedin{
+    float: right;
+}
+#gh{
+    float:right;
+}
+
+#menu{
+    float: left;
+    position: relative;
+    top: 5px;
+    left:15px;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: black; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+#CD{
+    height: 500px;
+    width: 600px;
+    margin-left: 5%;
+}
+#signUp{
+    height: 500px;
+    width:600px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#caption2{
+    text-align: center;
+    position: relative;left: 35px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+#media{
+    margin: 5%;
+}
+#img1{
+    float: right;
+    position: relative;
+   bottom: 500px;
+}
+#img2{
+    position: relative;
+    bottom: 500px;
+    left: 200px;
+}
+#caption1{
+    position: relative;
+    left: 130px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+#caption3{
+    position: relative;
+    left: 270px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+   bottom: 40px;
+}
+#designP{
+    color: black;
+    position: relative;
+    bottom: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+#dp{
+    position: relative;
+    bottom: 300px;
+    left:130px;
+    align-content: center;
+}
+#designSub{
+    color: black;
+    position: relative;
+    bottom: 420px;
+    left: 400px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}

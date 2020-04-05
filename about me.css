@@ -1,6 +1,8 @@
 html{
     /*background-color: darkcyan;*/
    width: fit-content;
+
+
 }
 
 #main{
@@ -67,10 +69,7 @@ header{
     font-family: 'Pacifico', cursive;
 
 }
-#ig,#linkedin,#youtube{
-    float: right;
-    margin-bottom: 25%;
-}
+
 hr{
  margin-left: 5%;
 }
@@ -113,11 +112,14 @@ footer{
     font-weight: bold;
 }
 #aboutmePic{
-    margin-left: 40%;
+    margin-left: 35%;
     position: relative;
     top: 20px;
     left:60px;
    bottom: 100px;
+}
+#aboutTitle{
+    margin-right: 10%;
 }
 #aboutMe{
     font-family: 'Boogaloo', cursive;
@@ -126,6 +128,7 @@ footer{
 h3{
     margin-left: 5%;
     margin-top: 5%;
+    margin-right: 10%;
 }
 #aboutP{
     margin-left: 5%;

@@ -8,7 +8,7 @@ html{
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: orange; /* Black*/
+    background-color: black; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -49,16 +49,8 @@ html{
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
-header{
-    text-align: center;
-    font-family: 'Pacifico', cursive;
 
-}
-#ig,#linkedin,#youtube{
-    float: right;
-    margin-bottom: 25%;
-    font-size: xx-large;
-}
+
 #skillsContainer{
   /*margin-top: 10%;*/
     margin-left: 5%;
@@ -88,14 +80,7 @@ h2{
     /*margin-left: 5%;*/
     /*color: white;*/
 }
-footer{
-    text-align: center;
-    margin-top: 10%;
-    font-family: 'Quicksand', sans-serif;
-    color: orange;
-    font-weight: bolder;
-    margin-right: 10%;
-}
+
 #skills1{
     margin-left: 5%;
     margin-right: 5%;
@@ -242,3 +227,39 @@ p{
 #lang{
     display: inline-block;
 }
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    background-color:#F2BB05;
+    /*opacity: 0.7;*/
+    color: black;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+#dribbble{
+    float:right;
+    position: relative;
+    top:5px;
+}
+#ig{
+    float:right;
+}
+#linkedin{
+    float: right;
+}
+#gh{
+    float:right;
+}
+
+#menu{
+    float: left;
+    position: relative;
+    top: 5px;
+    left:15px;
+}
+
+
