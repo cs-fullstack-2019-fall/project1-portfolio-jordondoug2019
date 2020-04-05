@@ -1,6 +1,12 @@
 html{
     /*background-color: darkcyan;*/
-    background-blend-mode: color-burn;
+   width: fit-content;
+}
+
+#main{
+ align-content: center;
+    position: relative;
+    /*left: 200px;*/
 }
 #about{
 float: left;
@@ -15,7 +21,7 @@ float: left;
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: orange; /* Black*/
+    background-color: black; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -77,53 +83,98 @@ h1{
     /*font-family: 'Boogaloo', cursive;*/
 }
 #aboutBody{
-    margin-left: 25%;
+    /*margin-left: 5%;*/
+    text-align: center;
     font-family: 'Quicksand', sans-serif;
     /*font-family: 'Boogaloo', cursive;*/
-    font-size: x-large;
+    font-size: large;
     font-weight: bold;
     color: black;
     position: relative;
-    bottom:130px;
+    /*bottom:130px;*/
     /*color: #F2BB05;*/
 }
 h2{
-   margin-left: 10%;
+   /*margin-left: 10%;*/
     font-family: 'Quicksand', sans-serif;
     /*font-family: 'Boogaloo', cursive;*/
 }
 footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    background-color:#F2BB05;
+    /*opacity: 0.7;*/
+    color: black;
     text-align: center;
-    margin-top: 10%;
     font-family: 'Quicksand', sans-serif;
-    color: orange;
-    font-weight: bolder;
-
+    font-weight: bold;
 }
 #aboutmePic{
-    margin-left: 35%;
+    margin-left: 40%;
     position: relative;
+    top: 20px;
     left:60px;
-   bottom: 200px;
+   bottom: 100px;
 }
 #aboutMe{
     font-family: 'Boogaloo', cursive;
 }
-#aboutTitle{
-    margin-right: 95%;
-    position: sticky;
-}
-#js_badge{
-    margin-left:15%;
-    margin-top: 10%;
-}
-#bodyTitle{
-    position: relative;
-}
+
 h3{
-    margin-left: 20%;
+    margin-left: 5%;
     margin-top: 5%;
 }
+#aboutP{
+    margin-left: 5%;
+    margin-right:5%
+}
+#dribbble{
+    float:right;
+    position: relative;
+    top:5px;
+}
+#ig{
+    float:right;
+}
+#linkedin{
+    float: right;
+}
+#gh{
+    float:right;
+}
+
+#menu{
+    float: left;
+    position: relative;
+    top: 5px;
+    left:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 414px){
     #aboutmePic {
         position: relative;

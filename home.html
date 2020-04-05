@@ -6,43 +6,54 @@
     <title>Jordy's Corner</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Boogaloo|Playfair+Display|Shadows+Into+Light&display=swap" rel="stylesheet">
+
 </head>
 <body>
+<div>
+
+    <div>
+
 <div id="container">
     <section id="section" >
         <img src="pictures/basic_smile_edit.png" class='animated bounceInLeft' height="398" width="390" id="basic_smile"/>
     </section>
     <aside id="textTitle">
         <h2 class="animated bounceInRight" >Welcome to Jordy's Corner </h2>
-            <p class="animated bounceInRight"> Click an icon to learn more about my world or if you have seen enough shoot me an <a href="ContactMe.html">email</a> </p>
-
     </aside>
-    <footer id="footer">
-        <div id="footerDiv">
-        <div id="div1">
-            <a href="about%20me.html"><img src="pictures/basic_smile_edit.png" class='animated bounce' height="" width="100" id="aboutMe"/></a>
-            <p id="caption"> About </p>
-        </div>
-        <div id="div2">
-            <a href="Projects.html"><img src="pictures/projects_1_edit.png" class='animated bounce' height="90" width="90" id="projects"/></a>
-            <p id="cap2">Projects </p>
+    <p id="introP" class="animated bounceInRight" > "Life is a series of builiding, changing, testing, and iterating"- Lauren Mosenthal</p>
+
+</div>
+
+</div>
+    <div>
+<!--        <span onclick="openNav()"><img src="pictures/icons8-menu-30.png" height="30" width="30" id="menu" /></span>-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="about%20me.html">About</a>
+            <a href="Projects.html">Projects</a>
+            <a href="#">Designs</a>
+            <a href="skills.html">Skills</a>
+            <a href="ContactMe.html">Contact</a>
+            <a href="home.html">Home</a>
         </div>
 
-        <div id="div3">
-            <a href="skills.html"><img src="pictures/skills3_edit.png" class='animated bounce' height="75" width="75" id="skills"/></a>
-            <p id="cap3"> Skills</p>
         </div>
-       <div id="div4">
-           <a href="ContactMe.html"><img src="pictures/contactme.png" class='animated bounce' height="80" width="80" id="contactMe"/></a>
-           <p id="cap4">Contact</p>
-       </div>
+
     </div>
-        <h4 id="footerTxt">Designed by Jordy</h4>
-    </footer>
+
+    <footer> <span onclick="openNav()"><img src="pictures/icons8-menu-30.png" height="30" width="30" id="menu" /></span>Designed by Jordy
+        <a href="https://www.instagram.com/seejocode" target="_blank"><img src="pictures/instagram.png" height="30" width="30" id="ig"  /></a>
+        <a href="https://www.linkedin.com/in/jordondouglas" target="_blank"><img src="pictures/linkedin.png" height="30" width="30" id="linkedin" /></a>
+    <a href="https://www.github.com/jordondoug2019" target="_blank"><img src="pictures/github.png" height="35" width="35" id="gh"/> </a>
+    <a href="https://dribbble.com/jordyscorner"><img src="pictures/dribbble.png" height="25" width="25" id="dribbble"/></a></footer>
 </div>
+
+
 <script src="home.js"></script>
+
 </body>
 </html>

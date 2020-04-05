@@ -1,13 +1,8 @@
 let pic_flip= ["pictures/wink_edit.png","pictures/basic_smile_edit.png"];
 i=0;
 let x=document.getElementById("basic_smile");
-let about_me=document.getElementById("aboutMe");
-let project_menu=document.getElementById("projects");
-let skills_menu=document.getElementById("skills");
-let education_menu=document.getElementById("education");
-let resume_menu=document.getElementById("resume");
-let youtube_menu=document.getElementById("youtube");
-let contact_menu=document.getElementById("contactMe");
+let menu = document.getElementById('menu');
+let div2= document.getElementsByClassName('sections2');
 
 x.addEventListener('mouseenter',function ()
 {
@@ -24,44 +19,45 @@ x.addEventListener('mouseenter',function ()
         i++;
     }
 });
-about_me.addEventListener('mouseenter',function ()
-{
-   about_me.height= 110;
-   about_me.width=110;
-});
-about_me.addEventListener('mouseleave',function()
-{
-    about_me.height=100 ;
-    about_me.width=100;
-});
-project_menu.addEventListener('mouseenter',function()
-{
-    project_menu.height=110;
-    project_menu.width=110;
-});
-project_menu.addEventListener('mouseleave',function ()
-{
-    project_menu.height=90;
-    project_menu.width=90;
-});
-skills_menu.addEventListener('mouseenter',function(){
-    skills_menu.height=110;
-    skills_menu.width=110;
-});
-skills_menu.addEventListener('mouseleave',function ()
-{
-    skills_menu.height=75;
-    skills_menu.width=75;
-});
-contact_menu.addEventListener('mouseenter',function ()
-{
-    contact_menu.height=110;
-    contact_menu.width=110;
-});
-contact_menu.addEventListener('mouseleave',function ()
-{
-    contact_menu.height=80;
-    contact_menu.width=80;
-});
-homechange= document.getElementById("aboutContainer");
+
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+}
 

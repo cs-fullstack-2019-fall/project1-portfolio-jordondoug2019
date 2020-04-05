@@ -8,59 +8,73 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Boogaloo|Playfair+Display|Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
+<h1>Projects</h1>
+<br>
+
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <a href="http://app1.jordondouglas.com" target="_blank"> <img src="pictures/MetWikiEdit.png" style="width:100%"></a>
+        <div class="text"> For mega fans of the Met Gala! ! Full stack Django Wikipedia Light web application. Click the picture to learn more!</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <a href="http://app2.jordondouglas.com" target="_blank">    <img src="pictures/MonstahouseEdit.png" style="width:100%"></a>
+        <div class="text">Select a weapon and defeat the monsters of Monstahouse! Full stack(ReactJS+Django) raid game.</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <a href="http://app3.jordondouglas.com/" target="_blank">  <img src="pictures/CitiTechEdit.png" style="width:100%"> </a>
+        <div class="text">A one stop shop for all events, conferences, and groups related to the Tech Community in Memphis. Implemented using Full stack Django. Designed using Django Templating and backend created using google map api.</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <a href="https://jordondoug2019.github.io/" target="_blank">  <img src="pictures/google_clone_2.png" style="width:100%"> </a>
+        <div class="text">Simple Google Clone using HTML5 and CSS</div>
+    </div>
+
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+</div>
+
+
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="about%20me.html">About</a>
     <a href="Projects.html">Projects</a>
+    <a href="#">Designs</a>
     <a href="skills.html">Skills</a>
     <a href="ContactMe.html">Contact</a>
     <a href="home.html">Home</a>
 </div>
 
-<!-- Use any element to open the sidenav -->
+
+<footer> <span onclick="openNav()"><img src="pictures/icons8-menu-30.png" height="30" width="30" id="menu" /></span>Designed by Jordy
+    <a href="https://www.instagram.com/seejocode" target="_blank"><img src="pictures/instagram.png" height="30" width="30" id="ig"  /></a>
+    <a href="https://www.linkedin.com/in/jordondouglas" target="_blank"><img src="pictures/linkedin.png" height="30" width="30" id="linkedin" /></a>
+    <a href="https://www.github.com/jordondoug2019" target="_blank"><img src="pictures/github.png" height="35" width="35" id="gh"/> </a>
+    <a href="https://dribbble.com/jordyscorner"><img src="pictures/dribbble.png" height="25" width="25" id="dribbble"/></a>
+</footer>
 
 
-<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-<div id="main">
-    <header>
-        <h1 id="projectHeader">Jordy's Corner</h1>
-        <a href="https://www.instagram.com/seejocode" target="_blank"><img src="pictures/instagram.png" height="50" width="50" id="ig"/></a>
-        <a href="https://www.linkedin.com/in/jordondouglas" target="_blank"><img src="pictures/linkedin.png" height="50" width="50" id="linkedin"/></a>
-        <a href="https://www.youtube.com/channel/UCSHI6fcOIWeAHKZksJx1EUA" target="_blank"><img src="pictures/Youtube-512.png" height="50" width="50" id="youtube" /></a>
-    </header>
-    <span onclick="openNav()"><img src="pictures/icons8-menu-30.png" height="30" width="30"/></span>
-    <br>
-    <br>
-    <br>
-    <br>
-<div id="projectsContainer">
-    <div id="projectPics">
-
-        <p id="wikiP"> For mega fans of the Met Gala! ! Full stack Django Wikipedia Light web application. Click the picture to learn more! </p>
-        <a href="http://app1.jordondouglas.com" target="_blank">
-            <img src="pictures/MetWikiEdit.png" width="600" id="pic1"></a> <br><br>
-<!--     <br> <br>-->
-        <p id="GameP">Select a weapon and defeat the monsters of Monstahouse! Full stack(ReactJS+Django) raid game. </p>
-        <a href="http://app2.jordondouglas.com" target="_blank">
-            <img src="pictures/monstahouseedit2.png" width="600" id="pic2"> </a> <br> <br>
-<!--        <br> <br>-->
-        <p id="citiP">A one stop shop for all events, conferences, and groups related to the Tech Community in Memphis. Implemented using Full stack Django. Designed using Django Templating and backend created using google map api. </p>
-   <a href="http://app3.jordondouglas.com/" target="_blank">  <img src="pictures/CitiTechEdit.png" width="600" id="pic3"></a> <br> <br>
-<!--<br> <br>-->
-        <p id="googleP">Simple Google Clone using HTML5 and CSS.</p>
-        <a href="https://jordondoug2019.github.io/" target="_blank">  <img src="pictures/google_clone.png" width="600" id="pic4"> </a> <br> <br>
-      <br>
-</div>
-</div>
-    <footer>Designed by Jordy</footer>
-
-</div>
 <link rel="stylesheet" href="Projects.css">
 <script src="Projects.js"></script>
 </body>
