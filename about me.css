@@ -297,3 +297,8 @@ h2{
         text-align: left;
     }
 }
+span{
+    float: left;
+    position: relative;
+    top: 8px;
+}

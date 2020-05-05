@@ -262,3 +262,8 @@ footer{
     font-weight: bold;
     font-size: larger;
 }
+span{
+    float: left;
+    position: relative;
+    top: 8px;
+}

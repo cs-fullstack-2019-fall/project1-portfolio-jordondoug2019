@@ -267,3 +267,8 @@ h1{
 #dHeader{
     margin: 5%;
 }
+span{
+    float: left;
+    position: relative;
+    top: 8px;
+}
